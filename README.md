@@ -38,7 +38,6 @@
 * [Jonathan Levin - Who needs task_for_pid anyway?](http://newosxbook.com/articles/PST2.html)
 * [qwertyoruiopz - About the “tpwn” Local Privilege Escalation](http://blog.qwertyoruiop.com/?p=69)
 * [Ian Beer - task_t considered harmful](https://googleprojectzero.blogspot.ch/2016/10/taskt-considered-harmful.html)
-* [Jonathan Levin - Pangu 9.2 - 9.3.3](http://newosxbook.com/articles/nuwashi.pdf)
 * [jndok - Exploiting Pegasus on OS X](https://jndok.github.io/2016/10/04/pegasus-writeup/)
 * [Siguza - Exploiting Pegasus on iOS](https://siguza.github.io/cl0ver/)
 * [Ian Beer - mach_portal](https://bugs.chromium.org/p/project-zero/issues/detail?id=965#c2)
