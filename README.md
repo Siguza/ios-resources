@@ -45,4 +45,4 @@
 ## Other Lists
 
 * qwertyoruiopz - iOS Reverse Engineering ([Wiki](https://github.com/kpwn/iOSRE/tree/master/wiki) and [Papers](https://github.com/kpwn/iOSRE/blob/master/resources/papers/PAPERS.md))
-* [Ian Beer - All the bugs he has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=owner%3Aianbeer+modified-after%3A2016%2F10%2F10)
+* [Ian Beer - All the bugs he has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=owner%3Aianbeer)
