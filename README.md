@@ -30,6 +30,10 @@
 * qwertyoruiopz - Attacking XNU (Part [One](http://blog.qwertyoruiop.com/?p=38) and [Two](http://blog.qwertyoruiop.com/?p=48)) <!-- July 2015 -->
 * [Stefan Esser - Kernel Heap](http://gsec.hitb.org/materials/sg2016/D2%20-%20Stefan%20Esser%20-%20iOS%2010%20Kernel%20Heap%20Revisited.pdf) (I hope I don't get sued) <!-- Aug 2016 -->
 
+**KPP**
+
+* [xerub - Tick Tock](https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html)
+
 ## Write-Ups
 
 * [geohot - evasi0n7](http://geohot.com/e7writeup.html)
@@ -41,8 +45,9 @@
 * [jndok - Exploiting Pegasus on OS X](https://jndok.github.io/2016/10/04/pegasus-writeup/)
 * [Siguza - Exploiting Pegasus on iOS](https://siguza.github.io/cl0ver/)
 * [Ian Beer - mach_portal](https://bugs.chromium.org/p/project-zero/issues/detail?id=965#c2)
+* [Ian Beer - Exception-oriented exploitation on iOS](https://googleprojectzero.blogspot.ch/2017/04/exception-oriented-exploitation-on-ios.html)
 
 ## Other Lists
 
 * qwertyoruiopz - iOS Reverse Engineering ([Wiki](https://github.com/kpwn/iOSRE/tree/master/wiki) and [Papers](https://github.com/kpwn/iOSRE/blob/master/resources/papers/PAPERS.md))
-* [Ian Beer - All the bugs he has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=owner%3Aianbeer)
+* [Ian Beer - All the bugs he has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=owner:ianbeer&sort=-id)
