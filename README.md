@@ -2,7 +2,8 @@
 
 ## Basics
 
-* [ARM64 instruction set reference](https://www.element14.com/community/servlet/JiveServlet/previewBody/41836-102-1-229511/ARM.Reference_Manual.pdf)
+* [ARM64 instruction set reference](https://www.element14.com/community/servlet/JiveServlet/previewBody/41836-102-1-229511/ARM.Reference_Manual.pdf) (short)
+* [ARMv8 Architecture Reference Manual](https://static.docs.arm.com/ddi0487/b/DDI0487B_a_armv8_arm.pdf) (long)
 <!-- TODO: something about memory regions and access permissions -->
 <!-- TODO: something about C++ vtables -->
 <!-- TODO: something about symbol stubs -->
@@ -26,13 +27,21 @@
 
 **Kernel**
 
-* Apple - IOKit ([Overview](https://developer.apple.com/library/content/documentation/Darwin/Conceptual/KernelProgramming/IOKit/IOKit.html#//apple_ref/doc/uid/TP30000905-CH213-SW1) and [Fundamentals](https://developer.apple.com/library/content/documentation/DeviceDrivers/Conceptual/IOKitFundamentals/Introduction/Introduction.html#//apple_ref/doc/uid/TP0000011))
+* Apple - [Kernel Programming Guide](https://developer.apple.com/library/content/documentation/Darwin/Conceptual/KernelProgramming)
+* Apple - [IOKit Fundamentals](https://developer.apple.com/library/content/documentation/DeviceDrivers/Conceptual/IOKitFundamentals)
+* Apple - [About the Virtual Memory System](https://developer.apple.com/library/content/documentation/Performance/Conceptual/ManagingMemory/Articles/AboutMemory.html)
 * qwertyoruiopz - Attacking XNU (Part [One](http://blog.qwertyoruiop.com/?p=38) and [Two](http://blog.qwertyoruiop.com/?p=48)) <!-- July 2015 -->
 * [Stefan Esser - Kernel Heap](http://gsec.hitb.org/materials/sg2016/D2%20-%20Stefan%20Esser%20-%20iOS%2010%20Kernel%20Heap%20Revisited.pdf) (I hope I don't get sued) <!-- Aug 2016 -->
 
 **KPP**
 
 * [xerub - Tick Tock](https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html)
+
+**Hardware**
+
+* Ramtin Amin - [Lightning Connector](http://ramtin-amin.fr/#tristar)
+* Ramtin Amin - [NVMe NAND Storage](http://ramtin-amin.fr/#nvmepcie)
+* Ramtin Amin - [iPhone PCIe (dumping the 6s BootROM)](http://ramtin-amin.fr/#nvmedma)
 
 ## Write-Ups
 
