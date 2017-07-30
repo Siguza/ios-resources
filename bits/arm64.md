@@ -17,9 +17,11 @@
 - Constant `0` loaded from `wzr`/`xzw`.
 - Small constants usually OR'ed with zero register, e.g. `orr x0, xzr, 5`.
 - Big constants usually loaded with `movz`+`movk`, e.g.:
-      movz x0, 0x1234, lsl 32
-      movk x0, 0x5678, lsl 16
-      movk x0, 0x9abc
+    ```asm
+    movz x0, 0x1234, lsl 32
+    movk x0, 0x5678, lsl 16
+    movk x0, 0x9abc
+    ```
   -> `x0 == 0x123456789abc`.
 - `movn` for negative values, e.g. `movn x0, 1` -> `x0 == -1`.
 - `lsl` and `lsr` instructions = logic-shift-left and logic-shift-right, e.g. `lsl x0, x0, 8` -> `x0 <<= 8`.
@@ -33,7 +35,7 @@
   - `ldr x0, [x1]` -> `x0 = *x1`
   - `str x0, [x1]` -> `*x1 = x0`
   - `ldr x0, [x1, 0x10]` -> `x0 = *(x1 + 0x10)`
-  - `ldp`/`stp` to load/store two registers at once behind each other, e.g.:
+  - `ldp`/`stp` to load/store two registers at once behind each other, e.g.:  
     `stp x0, x2, [x2]` -> `*x2 = x0; *(x2 + 8) = x1;`
   - Multiple variations for load/store size:
     - Register names `xN` for 64-bit, `wN` for 32-bit
@@ -51,8 +53,10 @@
 - Memory addresses usually computed by PC-relative instructions:
   - `adr x0, 0x12345` (only works for small offset from PC)
   - Bigger ranges use `adrp`+`add`:
+        ```asm
         adrp x0, 0xffffff8012345000 ; "address of page", last 12 bits are always zero
         add x0, x0, 0x678
+        ```
   - Even bigger ranges usually stored as pointers in data segment, offset by linker and loaded with `ldr`.
 
 ### Calling convention
@@ -64,44 +68,52 @@
 - `x29` frame pointer (basically also just callee-saved)
 - `x30` return address
 - Functions that save anything in `x19`-`x28` usually start like this:
-      stp x24, x23, [sp, -0x40]!
-      stp x22, x21, [sp, 0x10]
-      stp x20, x19, [sp, 0x20]
-      stp x29, x30, [sp, 0x30]
-      add x29, sp, 0x30
+    ```asm
+    stp x24, x23, [sp, -0x40]!
+    stp x22, x21, [sp, 0x10]
+    stp x20, x19, [sp, 0x20]
+    stp x29, x30, [sp, 0x30]
+    add x29, sp, 0x30
+    ```
   and end like this:
-      ldp x29, x30, [sp, 0x30]
-      ldp x20, x19, [sp, 0x20]
-      ldp x22, x21, [sp, 0x10]
-      ldp x24, x23, [sp], 0x40
-      ret
+    ```asm
+    ldp x29, x30, [sp, 0x30]
+    ldp x20, x19, [sp, 0x20]
+    ldp x22, x21, [sp, 0x10]
+    ldp x24, x23, [sp], 0x40
+    ret
+    ```
   The stack for local variables is usually managed separately though, with `add sp, sp, 0x...` and `sub sp, sp, 0x...`.
 
 ### Conditions and branches
 
-- `cmp` = general compare instruction, sets condition flags
+- `cmp` = general compare instruction, sets condition flags.  
   Can be used against registers or small constants:
-      cmp x0, x1
-      cmp x0, 3
+    ```asm
+    cmp x0, x1
+    cmp x0, 3
+    ```
 - `b.cond` = conditional branch instruction, where `cond` can be:
   - `eq`/`ne` = equal/not equal
   - `lt`/`le`/`gt`/`ge` = less than/less or equal/greater than/greater or equal (signed)
   - `lo`/`ls`/`hi`/`hs` = lower/lower or same/higher/higher or same (unsigned)
-  - A few more weird flags, virtually unused
+  - A few more weird flags, virtually unused.
   - Example use:
+        ```asm
         cmp x0, 3
         b.ls 0xffffff8012345678
-- Shortcuts `cbz`/`cbnz` = compare-branch-zero and compare-branch-non-zero.
-  Just shorter ways to write `cmp xN, 0`+`b.eq` or `b.ne`.
+        ```
+- Shortcuts `cbz`/`cbnz` = compare-branch-zero and compare-branch-non-zero.  
+  Just shorter ways to write `cmp xN, 0`+`b.eq` or `b.ne`.  
   (Translates nicely to C `if(x)` or `if(!x)`.)
 - A bunch of specialized instructions exist to conditionally operate on registers (e.g. `ccmp`, `cset`).
-- `b` = unconditional branch (e.g. `b 0xffffff8012345678`)
+- `b` = unconditional branch (e.g. `b 0xffffff8012345678`)  
   Jump to PC-relative address. Used primarily within function for flow control.
-- `bl` = branch-and-link (e.g. `bl 0xffffff8012345678`)
+- `bl` = branch-and-link (e.g. `bl 0xffffff8012345678`)  
   Store return address to `x30` and jump to PC-relative address. Used for static function calls.
-- `blr` = branch-and-link to register (e.g. `blr x8`)
+- `blr` = branch-and-link to register (e.g. `blr x8`)  
   Store return address to `x30` and jump to address in `x8`. Used for calls with function pointers or C++ virtual methods.
-- `br` = branch to register (e.g. `br x8`)
+- `br` = branch to register (e.g. `br x8`)  
   Jump to address in `x8`. Used for tail calls.
-- `ret` = return
+- `ret` = return  
   Can in theory use registers other than x30 (e.g. `ret x8`), but compiler doesn't usually generate that.
