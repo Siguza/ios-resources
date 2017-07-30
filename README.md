@@ -9,7 +9,7 @@ Official references:
 
 My own doing:
 
-* [arm64 assembly crash course](https://github.com/Siguza/ios-resources/bits/arm64.md)
+* [arm64 assembly crash course](https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md)
 <!-- TODO: something about memory regions and access permissions -->
 <!-- TODO: something about C++ vtables -->
 <!-- TODO: something about symbol stubs -->
