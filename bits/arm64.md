@@ -127,7 +127,7 @@
     -   `ccmp` = conditional compare, e.g.:
         ```asm
         cmp x0, 3
-        ccmp x0, 7, 8, hs
+        ccmp x0, 7, 2, hs
         b.hi 0xffffff8012345678
         ```
         -> `hi` condition will be true if `x0 < 3 || x0 > 7` (third `ccmp` operand is raw `nzcv` data).  
