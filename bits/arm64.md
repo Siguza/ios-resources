@@ -22,8 +22,8 @@
     movk x0, 0x5678, lsl 16
     movk x0, 0x9abc
     ```
-    -> `x0 == 0x123456789abc`.
--   `movn` for negative values, e.g. `movn x0, 1` -> `x0 == -1`.
+    -> `x0 = 0x123456789abc`.
+-   `movn` for negative values, e.g. `movn x0, 1` -> `x0 = -1`.
 -   `lsl` and `lsr` instructions = logic-shift-left and logic-shift-right, e.g. `lsl x0, x0, 8` -> `x0 <<= 8`.
     -   `lsl` and `lsr` not only used as instructions, but also as operands to other instructions (see `movz` above).
     -   `asl` for arithmetic shift also exists, but less frequently used.
