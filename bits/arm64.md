@@ -1,5 +1,7 @@
 # arm64 assembly crash course
 
+_Note: May or may not be specific to iOS._
+
 ### Registers
 
 -   General purpose registers 0 through 30 with two addressing modes:
@@ -106,6 +108,7 @@
     ```
 -   Other instructions that set condition flags:
     -   `cmn` = compare negative
+    -   `tst` = bitwise test
     -   `adds`/`adcs` = add/add with carry
     -   `subs`/`sbcs` = subtract/subtract with carry
     -   `negs`/`ngcs` = negate/negate with carry
@@ -159,6 +162,8 @@
     b.ne 0x...
     ```
     (Translate nicely to C `if(x)` or `if(!x)`.)
+-   Shortcurts `tbz`/`tbnz` = test single bit and branch if zero/non-zero.  
+    E.g. `tbz x0, 3, ...` translates to `if((x0 & (1 << 3)) == 0) goto ...`.
 -   `bl` = branch-and-link (e.g. `bl 0xffffff8012345678`)  
     Store return address to `x30` and jump to PC-relative address. Used for static function calls.
 -   `blr` = branch-and-link to register (e.g. `blr x8`)  
