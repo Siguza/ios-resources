@@ -114,13 +114,13 @@
     -   `cset` = conditional set, e.g.:
         ```asm
         cmp x0, 3
-        cset x0, ls
+        cset x0, lo
         ```
         -> `x0 = (x0 < 3)`
     -   `csel` = conditional select, e.g.:
         ```asm
         cmp x0, 3
-        csel x0, x1, x2, ls
+        csel x0, x1, x2, lo
         ```
         -> `x0 = (x0 < 3) ? x1 : x2`  
         (Translates nicely to ternary conditional.)
@@ -144,7 +144,7 @@
     or conditional:
     ```asm
     cmp x0, 3
-    b.ls 0xffffff8012345678 ; jump to 0xffffff8012345678 if x < 3
+    b.lo 0xffffff8012345678 ; jump to 0xffffff8012345678 if x < 3
     ```
     Used primarily within function for flow control.
 -   Shortcuts `cbz`/`cbnz` = compare-branch-zero and compare-branch-non-zero.  
