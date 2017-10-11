@@ -61,7 +61,8 @@ My own doing:
 * [Siguza - Exploiting Pegasus on iOS](https://siguza.github.io/cl0ver/)
 * [Ian Beer - mach_portal](https://bugs.chromium.org/p/project-zero/issues/detail?id=965#c2)
 * [Ian Beer - Exception-oriented exploitation on iOS](https://googleprojectzero.blogspot.ch/2017/04/exception-oriented-exploitation-on-ios.html)
-* Gal Beniamini - Over The Air (Parts [One](https://googleprojectzero.blogspot.ch/2017/09/over-air-vol-2-pt-1-exploiting-wi-fi.html), [Two](https://googleprojectzero.blogspot.ch/2017/10/over-air-vol-2-pt-2-exploiting-wi-fi.html) and [Three](https://googleprojectzero.blogspot.ch/2017/10/over-air-vol-2-pt-3-exploiting-wi-fi.html)).
+* [Jonathan Levin - Phœnix](http://newosxbook.com/files/PhJB.pdf)
+* Gal Beniamini - Over The Air (Parts [One](https://googleprojectzero.blogspot.ch/2017/09/over-air-vol-2-pt-1-exploiting-wi-fi.html), [Two](https://googleprojectzero.blogspot.ch/2017/10/over-air-vol-2-pt-2-exploiting-wi-fi.html) and [Three](https://googleprojectzero.blogspot.ch/2017/10/over-air-vol-2-pt-3-exploiting-wi-fi.html))
 
 ## Other Lists
 
