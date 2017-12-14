@@ -38,7 +38,7 @@ _Note: May or may not be specific to iOS._
     -   `str x0, [x1]` -> `*x1 = x0`
     -   `ldr x0, [x1, 0x10]` -> `x0 = *(x1 + 0x10)`
     -   `ldp`/`stp` to load/store two registers at once behind each other, e.g.:  
-        `stp x0, x2, [x2]` -> `*x2 = x0; *(x2 + 8) = x1;`
+        `stp x0, x1, [x2]` -> `*x2 = x0; *(x2 + 8) = x1;`
     -   Multiple variations for load/store size:
         -   Register names `xN` for 64-bit, `wN` for 32-bit
         -   `ldrh`/`srth` for 16-bit
