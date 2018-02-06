@@ -36,7 +36,7 @@ My own doing:
 * Apple - [Kernel Programming Guide](https://developer.apple.com/library/content/documentation/Darwin/Conceptual/KernelProgramming)
 * Apple - [IOKit Fundamentals](https://developer.apple.com/library/content/documentation/DeviceDrivers/Conceptual/IOKitFundamentals)
 * Apple - [About the Virtual Memory System](https://developer.apple.com/library/content/documentation/Performance/Conceptual/ManagingMemory/Articles/AboutMemory.html)
-* qwertyoruiopz - Attacking XNU (Part [One](http://blog.qwertyoruiop.com/?p=38) and [Two](http://blog.qwertyoruiop.com/?p=48)) <!-- July 2015 -->
+* qwertyoruiopz - Attacking XNU (Part [One](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=38) and [Two](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=48)) <!-- July 2015 -->
 * [Stefan Esser - Kernel Heap](http://gsec.hitb.org/materials/sg2016/D2%20-%20Stefan%20Esser%20-%20iOS%2010%20Kernel%20Heap%20Revisited.pdf) (I hope I don't get sued) <!-- Aug 2016 -->
 
 **KPP**
@@ -55,7 +55,7 @@ My own doing:
 * Jonathan Levin - TaiG 8.0 - 8.1.2 (Part [One](http://www.newosxbook.com/articles/TaiG.html) and [Two](http://www.newosxbook.com/articles/TaiG2.html))
 * Jonathan Levin - TaiG 8.1.3 - 8.4 (Part [One](http://www.newosxbook.com/articles/28DaysLater.html) and [Two](http://www.newosxbook.com/articles/HIDeAndSeek.html))
 * [Jonathan Levin - Who needs task_for_pid anyway?](http://newosxbook.com/articles/PST2.html)
-* [qwertyoruiopz - About the “tpwn” Local Privilege Escalation](http://blog.qwertyoruiop.com/?p=69)
+* [qwertyoruiopz - About the “tpwn” Local Privilege Escalation](https://web.archive.org/web/20160131055957/http://blog.qwertyoruiop.com/?p=69)
 * [Ian Beer - task_t considered harmful](https://googleprojectzero.blogspot.ch/2016/10/taskt-considered-harmful.html)
 * [jndok - Exploiting Pegasus on OS X](https://jndok.github.io/2016/10/04/pegasus-writeup/)
 * [Siguza - Exploiting Pegasus on iOS](https://siguza.github.io/cl0ver/)
