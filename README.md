@@ -65,8 +65,14 @@ My own doing:
 * Gal Beniamini - Over The Air (Parts [One](https://googleprojectzero.blogspot.ch/2017/09/over-air-vol-2-pt-1-exploiting-wi-fi.html), [Two](https://googleprojectzero.blogspot.ch/2017/10/over-air-vol-2-pt-2-exploiting-wi-fi.html) and [Three](https://googleprojectzero.blogspot.ch/2017/10/over-air-vol-2-pt-3-exploiting-wi-fi.html))
 * [Siguza - v0rtex](https://siguza.github.io/v0rtex/)
 * [Ian Beer - async_wake_ios](https://bugs.chromium.org/p/project-zero/issues/detail?id=1417#c3)
+* [Siguza - IOHIDeous](https://siguza.github.io/IOHIDeous/)
+* Jonathan Levin - QiLin ([PDF](http://newosxbook.com/QiLin/qilin.pdf) and [API](http://newosxbook.com/QiLin/))
+* [Brandon Azad - A fun XNU infoleak](https://bazad.github.io/2018/03/a-fun-xnu-infoleak/)
+* [jeffball - Heap overflow in necp_client_action](https://github.com/grimm-co/NotQuite0DayFriday/blob/master/2018.04.06-macos/notes.txt)
+* [xerub - De Rebus Antiquis](https://xerub.github.io/ios/iboot/2018/05/10/de-rebus-antiquis.html)
+* [Ian Beer - multi_path](https://bugs.chromium.org/p/project-zero/issues/detail?id=1558#c3)
 
 ## Other Lists
 
 * qwertyoruiopz - iOS Reverse Engineering ([Wiki](https://github.com/kpwn/iOSRE/tree/master/wiki) and [Papers](https://github.com/kpwn/iOSRE/blob/master/resources/papers/PAPERS.md))
-* [Ian Beer - All the bugs he has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=owner:ianbeer&sort=-id)
+* [Ian Beer - All the bugs he has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:ianbeer@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
