@@ -43,6 +43,10 @@ My own doing:
 
 * [xerub - Tick Tock](https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html)
 
+**KTRR**
+
+* [Siguza - KTRR](https://siguza.github.io/KTRR/)
+
 **Hardware**
 
 * Ramtin Amin - [Lightning Connector](http://ramtin-amin.fr/#tristar)
