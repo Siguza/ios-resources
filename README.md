@@ -35,6 +35,7 @@ My own doing:
 
 * Apple - [Kernel Programming Guide](https://developer.apple.com/library/content/documentation/Darwin/Conceptual/KernelProgramming)
 * Apple - [IOKit Fundamentals](https://developer.apple.com/library/content/documentation/DeviceDrivers/Conceptual/IOKitFundamentals)
+* Apple - [IOKit Fundamentals PDF] (http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.693.3915&rep=rep1&type=pdf)
 * Apple - [About the Virtual Memory System](https://developer.apple.com/library/content/documentation/Performance/Conceptual/ManagingMemory/Articles/AboutMemory.html)
 * qwertyoruiopz - Attacking XNU (Part [One](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=38) and [Two](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=48)) <!-- July 2015 -->
 * [Stefan Esser - Kernel Heap](http://gsec.hitb.org/materials/sg2016/D2%20-%20Stefan%20Esser%20-%20iOS%2010%20Kernel%20Heap%20Revisited.pdf) (I hope I don't get sued) <!-- Aug 2016 -->
