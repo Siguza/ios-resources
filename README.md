@@ -5,7 +5,7 @@
 Official references:
 
 - [ARM64 instruction set reference](https://www.element14.com/community/servlet/JiveServlet/previewBody/41836-102-1-229511/ARM.Reference_Manual.pdf) (short)
-- [ARMv8 Architecture Reference Manual](https://static.docs.arm.com/ddi0487/ca/DDI0487C_a_armv8_arm.pdf) (long)
+- [ARMv8 Architecture Reference Manual](https://static.docs.arm.com/ddi0487/da/DDI0487D_a_armv8_arm.pdf) (long) (version D.a, includes ARMv8.4)
 
 My own doing:
 
