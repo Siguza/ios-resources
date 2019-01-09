@@ -4,7 +4,7 @@
 
 Official references:
 
-- [ARM64 instruction set reference](https://www.element14.com/community/servlet/JiveServlet/previewBody/41836-102-1-229511/ARM.Reference_Manual.pdf) (short)
+- [ARM64 instruction set reference](https://www.element14.com/community/servlet/JiveServlet/previewBody/41836-102-1-229511/ARM.Reference_Manual.pdf) (short, kinda outdated at this point)
 - [ARMv8 Architecture Reference Manual](https://static.docs.arm.com/ddi0487/da/DDI0487D_a_armv8_arm.pdf) (long) (version D.a, includes ARMv8.4)
 
 My own doing:
@@ -47,6 +47,15 @@ My own doing:
 
 - xerub - [Tick Tock](https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html)
 - Siguza - [KTRR](https://siguza.github.io/KTRR/)
+<!-- TODO: something about PPL/APRR -->
+
+**Control Flow Integrity**
+
+- Qualcomm Product Security - [Pointer Authentication on ARMv8.3](https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf)
+- Roberto Avanzi - The QARMA Block Cipher Family ([Paper](https://eprint.iacr.org/2016/444.pdf) and [Presentation](https://www.nuee.nagoya-u.ac.jp/labs/tiwata/fse2017/slides/05-02.pdf))
+- Roberto Avanzi - [Crypto that is Light to Accept](http://tce.webee.eedev.technion.ac.il/wp-content/uploads/sites/8/2016/05/light-crypto-public-2016.04.20.pdf)
+- Rui Zong and Xiaoyang Dong - [Meet-in-the-Middle Attack on QARMA Block Cipher](https://eprint.iacr.org/2016/1160.pdf)
+<!-- TODO: something about Apple's additions/variant/implementation -->
 
 **Hardware**
 
