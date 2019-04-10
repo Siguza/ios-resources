@@ -63,8 +63,11 @@ _Note: May or may not be specific to iOS._
 
 ### Calling convention
 
+_Note: Only dealing with integral types here. The rules change when floating-point is involved._
+
 -   `x0`-`x7` first 8 arguments, rest on the stack (low address to high) with natural alignment (as if they were members of a struct)
--   `x8`-`x17` scratch registers
+-   `x8` pointer to where to write the return value if >128 bits, otherwise scratch register
+-   `x9`-`x17` scratch registers
 -   `x18` reserved (unused)
 -   `x19`-`x28` callee-saved
 -   `x29` frame pointer (basically also just callee-saved)
@@ -88,6 +91,10 @@ _Note: May or may not be specific to iOS._
     The stack for local variables is usually managed separately though, with `add sp, sp, 0x...` and `sub sp, sp, 0x...`.
 -   Variadic arguments are passed on the stack (low address to high), each promoted to 8 bytes. Structs that don't fit into 8 bytes have a pointer passed instead.  
     Fixed arguments that don't fit into `x0`-`x7` come before variadic arguments on the stack, naturally aligned.
+-   The return value is passed as follows:
+    -   If it fits into 64 bits, in `x0`.
+    -   If it fits into 128 bits, the first/lower half in `x0`, the second/upper half in `x1`.
+    -   If it is larger than 128 bits, the caller passes a pointer in `x8` to where the result is written.
 
 ### Conditions
 
