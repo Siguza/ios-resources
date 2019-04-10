@@ -68,7 +68,7 @@ _Note: Only dealing with integral types here. The rules change when floating-poi
 -   `x0`-`x7` first 8 arguments, rest on the stack (low address to high) with natural alignment (as if they were members of a struct)
 -   `x8` pointer to where to write the return value if >128 bits, otherwise scratch register
 -   `x9`-`x17` scratch registers
--   `x18` reserved (unused)
+-   `x18` platform register (reserved, periodically zeroed by XNU)
 -   `x19`-`x28` callee-saved
 -   `x29` frame pointer (basically also just callee-saved)
 -   `x30` return address
