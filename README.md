@@ -4,9 +4,10 @@
 
 Official references:
 
-- [ARM64 instruction set reference](https://www.element14.com/community/servlet/JiveServlet/previewBody/41836-102-1-229511/ARM.Reference_Manual.pdf) (short, kinda outdated at this point)
+- [ARMv8 Instruction Set Overview](https://www.element14.com/community/servlet/JiveServlet/previewBody/41836-102-1-229511/ARM.Reference_Manual.pdf) (short, kinda outdated at this point)
 - [ARMv8 Architecture Reference Manual](https://developer.arm.com/docs/ddi0487/latest) (long)
 - [ARM A-Profile Exploration tools](https://developer.arm.com/products/architecture/cpu-architecture/a-profile/exploration-tools) (same as above, but in machine readable form)
+- [ARM System Architecture Software Standards](https://developer.arm.com/architectures/system-architectures/software-standards) (ABIs, extensions, etc.)
 
 My own doing:
 
