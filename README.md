@@ -88,6 +88,7 @@ My own doing:
 - xerub - [De Rebus Antiquis](https://xerub.github.io/ios/iboot/2018/05/10/de-rebus-antiquis.html)
 - Ian Beer - [multi_path](https://bugs.chromium.org/p/project-zero/issues/detail?id=1558#c3)
 - Brandon Azad - [blanket](https://github.com/bazad/blanket)
+- Brandon Azad - [voucher_swap](https://googleprojectzero.blogspot.com/2019/01/voucherswap-exploiting-mig-reference.html)
 
 ## Other Lists
 
