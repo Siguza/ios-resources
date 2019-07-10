@@ -16,6 +16,16 @@ My own doing:
 <!-- TODO: something about C++ vtables -->
 <!-- TODO: something about symbol stubs -->
 
+Note on ARM documents:
+
+> Both infocenter.arm.com and developer.arm.com are outright nightmares to navigate, and search engines don't help either. But if you have any ARM document as a PDF and want to check for a newer version, there is a neat trick. At the bottom of any page of the PDF, you should have a document identifier like so:
+>
+> ![Screenshot](https://user-images.githubusercontent.com/1659374/60986368-9cc60100-a33f-11e9-8ee6-b7dd89f0231e.png)
+>
+> That should have the form `ARM XXX ddddX.x`. Take the three letters and following four digits (in this case, `DDI0406`) and construct an URL like so:  
+> `https://developer.arm.com/docs/XXXdddd/latest`  
+> (In this case, `https://developer.arm.com/docs/DDI0406/latest`.)
+
 ## Internals
 
 **Mach-O**
