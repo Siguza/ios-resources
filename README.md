@@ -59,7 +59,8 @@ Note on ARM documents:
 
 - xerub - [Tick Tock](https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html)
 - Siguza - [KTRR](https://siguza.github.io/KTRR/)
-<!-- TODO: something about PPL/APRR -->
+- Jonathan Levin - [Casa de PPL](http://newosxbook.com/articles/CasaDePPL.html)
+- Siguza - [APRR](https://siguza.github.io/APRR/)
 
 **Control Flow Integrity**
 
@@ -69,11 +70,20 @@ Note on ARM documents:
 - Roberto Avanzi - [Crypto that is Light to Accept](http://tce.webee.eedev.technion.ac.il/wp-content/uploads/sites/8/2016/05/light-crypto-public-2016.04.20.pdf)
 - Rui Zong and Xiaoyang Dong - [Meet-in-the-Middle Attack on QARMA Block Cipher](https://eprint.iacr.org/2016/1160.pdf)
 
+**Remote Targets**
+
+- Natalie Silvanovich - [The Fully Remote Attack Surface of the iPhone](https://googleprojectzero.blogspot.com/2019/08/the-fully-remote-attack-surface-of.html)
+
 **Hardware**
 
 - Ramtin Amin - [Lightning Connector](http://ramtin-amin.fr/#tristar)
 - Ramtin Amin - [NVMe NAND Storage](http://ramtin-amin.fr/#nvmepcie)
 - Ramtin Amin - [iPhone PCIe (dumping the 6s BootROM)](http://ramtin-amin.fr/#nvmedma)
+
+**SEP**
+
+- Tarjei Mandt, Mathew Solnik, David Wang - [Demystifying the  Secure Enclave Processor](https://www.blackhat.com/docs/us-16/materials/us-16-Mandt-Demystifying-The-Secure-Enclave-Processor.pdf)
+
 
 ## Write-Ups
 
@@ -99,6 +109,11 @@ Note on ARM documents:
 - Ian Beer - [multi_path](https://bugs.chromium.org/p/project-zero/issues/detail?id=1558#c3)
 - Brandon Azad - [blanket](https://github.com/bazad/blanket)
 - Brandon Azad - [voucher_swap](https://googleprojectzero.blogspot.com/2019/01/voucherswap-exploiting-mig-reference.html)
+- Ian Beer - [Splitting atoms in XNU](https://googleprojectzero.blogspot.com/2019/04/splitting-atoms-in-xnu.html)
+- Natalie Silvanovich - [The Many Possibilities of CVE-2019-8646](https://googleprojectzero.blogspot.com/2019/08/the-many-possibilities-of-cve-2019-8646.html)
+- Google Project Zero - [A very deep dive into iOS Exploit chains found in the wild](https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html)
+  - Ian Beer - Parts [One](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-1.html), [Two](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-2.html), [Three](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-3.html), [Four](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-4.html), [Five](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-5.html) and [Implant Teardown](https://googleprojectzero.blogspot.com/2019/08/implant-teardown.html)
+  - Samuel Groß - [JSC Exploits](https://googleprojectzero.blogspot.com/2019/08/jsc-exploits.html)
 
 ## Other Lists
 
