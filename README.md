@@ -61,6 +61,7 @@ Note on ARM documents:
 - Siguza - [KTRR](https://siguza.github.io/KTRR/)
 - Jonathan Levin - [Casa de PPL](http://newosxbook.com/articles/CasaDePPL.html)
 - Siguza - [APRR](https://siguza.github.io/APRR/)
+- Brandon Azad - [KTRW: The journey to build a debuggable iPhone ](https://googleprojectzero.blogspot.com/2019/10/ktrw-journey-to-build-debuggable-iphone.html)
 
 **Control Flow Integrity**
 
