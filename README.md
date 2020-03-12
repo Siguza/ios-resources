@@ -93,6 +93,10 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 - Tarjei Mandt, Mathew Solnik, David Wang - [Demystifying the  Secure Enclave Processor](https://www.blackhat.com/docs/us-16/materials/us-16-Mandt-Demystifying-The-Secure-Enclave-Processor.pdf)
 
+**Bootloader**
+
+- a1exdandy - [Technical analysis of the checkm8 exploit](https://habr.com/en/company/dsec/blog/472762/)
+
 ## Write-Ups
 
 - geohot - [evasi0n7](http://geohot.com/e7writeup.html)
