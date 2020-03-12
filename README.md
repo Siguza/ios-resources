@@ -46,6 +46,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 **File Systems**
 
 - Apple - [APFS Reference](https://developer.apple.com/support/apple-file-system/Apple-File-System-Reference.pdf)
+- bxl1989 - [Understanding and Attacking Apple File System](https://bxl1989.github.io/2019/01/17/apfs-remount.html)
 
 **Kernel**
 
