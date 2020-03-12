@@ -36,9 +36,9 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 **Sandbox**
 
 - Jonathan Levin - The Apple Sandbox ([Video](https://youtu.be/mG715HcDgO8) and [Slides](http://newosxbook.com/files/HITSB.pdf)) <!-- Sep 2016 -->
-- iBSparkes - Breaking Entitlements ([Blog Post](https://sparkes.zone/blog/ios/2018/04/06/diving-into-the-kernel-entitlements.html)) <!-- Apr 2018 -->
-- stek29 - Shenanigans, Shenanigans! ([Blog Post](https://stek29.rocks/2018/12/11/shenanigans.html)) <!-- Dec 2018 -->
-- argp - vs com.apple.security.sandbox ([Slides](https://census-labs.com/media/sandbox-argp-csw2019-public.pdf)) <!-- March 2019 -->
+- iBSparkes - [Breaking Entitlements](https://sparkes.zone/blog/ios/2018/04/06/diving-into-the-kernel-entitlements.html) <!-- Apr 2018 -->
+- stek29 - [Shenanigans, Shenanigans!](https://stek29.rocks/2018/12/11/shenanigans.html) <!-- Dec 2018 -->
+- argp - [vs com.apple.security.sandbox](https://census-labs.com/media/sandbox-argp-csw2019-public.pdf) <!-- March 2019 -->
 
 **IPC**
 
@@ -49,7 +49,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 **File Systems**
 
 - Apple - [APFS Reference](https://developer.apple.com/support/apple-file-system/Apple-File-System-Reference.pdf)
-- stek29 - LightweightVolumeManager::\_mapForIO ([Blog Post](https://stek29.rocks/2018/01/22/lwvm-mapforio.html)) <!-- Jan 2018 -->
+- stek29 - [LightweightVolumeManager::\_mapForIO](https://stek29.rocks/2018/01/22/lwvm-mapforio.html) <!-- Jan 2018 -->
 
 **Kernel**
 
