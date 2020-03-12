@@ -18,13 +18,13 @@ My own doing:
 
 Note on ARM documents:
 
-> Both infocenter.arm.com and developer.arm.com are outright nightmares to navigate, and search engines don't help either. But if you have any ARM document as a PDF and want to check for a newer version, there is a neat trick. At the bottom of any page of the PDF, you should have a document identifier like so:
->
-> ![Screenshot](https://user-images.githubusercontent.com/1659374/60986368-9cc60100-a33f-11e9-8ee6-b7dd89f0231e.png)
->
-> That should have the form `ARM XXX ddddX.x`. Take the three letters and following four digits (in this case, `DDI0406`) and construct an URL like so:  
-> `https://developer.arm.com/docs/XXXdddd/latest`  
-> (In this case, `https://developer.arm.com/docs/DDI0406/latest`.)
+Both infocenter.arm.com and developer.arm.com are outright nightmares to navigate, and search engines don't help either. But if you have any ARM document as a PDF and want to check for a newer version, there is a neat trick. At the bottom of any page of the PDF, you should have a document identifier like so:
+
+![Screenshot](https://user-images.githubusercontent.com/1659374/60986368-9cc60100-a33f-11e9-8ee6-b7dd89f0231e.png)
+
+That should have the form `ARM XXX ddddX.x`. Take the three letters and following four digits (in this case, `DDI0406`) and construct an URL like so:  
+`https://developer.arm.com/docs/XXXdddd/latest`  
+(In this case, `https://developer.arm.com/docs/DDI0406/latest`.)
 
 ## Internals
 
@@ -53,15 +53,14 @@ Note on ARM documents:
 - Apple - IOKit Fundamentals (available as [Website](https://developer.apple.com/library/content/documentation/DeviceDrivers/Conceptual/IOKitFundamentals) or [PDF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.693.3915&rep=rep1&type=pdf))
 - Apple - [About the Virtual Memory System](https://developer.apple.com/library/content/documentation/Performance/Conceptual/ManagingMemory/Articles/AboutMemory.html)
 - qwertyoruiopz - Attacking XNU (Part [One](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=38) and [Two](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=48)) <!-- July 2015 -->
-- Stefan Esser - [Kernel Heap](http://gsec.hitb.org/materials/sg2016/D2%20-%20Stefan%20Esser%20-%20iOS%2010%20Kernel%20Heap%20Revisited.pdf) (I hope I don't get sued) <!-- Aug 2016 -->
+- Stefan Esser - [Kernel Heap](http://gsec.hitb.org/materials/sg2016/D2%20-%20Stefan%20Esser%20-%20iOS%2010%20Kernel%20Heap%20Revisited.pdf) <!-- Aug 2016 -->
 
 **Kernel Integrity**
 
 - xerub - [Tick Tock](https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html)
 - Siguza - [KTRR](https://siguza.github.io/KTRR/)
 - Jonathan Levin - [Casa de PPL](http://newosxbook.com/articles/CasaDePPL.html)
-- Siguza - [APRR](https://siguza.github.io/APRR/)
-- Brandon Azad - [KTRW: The journey to build a debuggable iPhone ](https://googleprojectzero.blogspot.com/2019/10/ktrw-journey-to-build-debuggable-iphone.html)
+- Brandon Azad - KTRW: The journey to build a debuggable iPhone ([Blog Post](https://googleprojectzero.blogspot.com/2019/10/ktrw-journey-to-build-debuggable-iphone.html) and [Video](https://media.ccc.de/v/36c3-10806-ktrw_the_journey_to_build_a_debuggable_iphone))
 
 **Control Flow Integrity**
 
@@ -71,9 +70,18 @@ Note on ARM documents:
 - Roberto Avanzi - [Crypto that is Light to Accept](http://tce.webee.eedev.technion.ac.il/wp-content/uploads/sites/8/2016/05/light-crypto-public-2016.04.20.pdf)
 - Rui Zong and Xiaoyang Dong - [Meet-in-the-Middle Attack on QARMA Block Cipher](https://eprint.iacr.org/2016/1160.pdf)
 
+**Other Mitigations**
+
+- Siguza - [APRR](https://siguza.github.io/APRR/)
+- Siguza - [PAN](https://siguza.github.io/PAN/)
+
 **Remote Targets**
 
 - Natalie Silvanovich - [The Fully Remote Attack Surface of the iPhone](https://googleprojectzero.blogspot.com/2019/08/the-fully-remote-attack-surface-of.html)
+
+**Persistence**
+
+- littlelailo - Tales of old: untethering iOS 11 ([Video](https://media.ccc.de/v/36c3-11034-tales_of_old_untethering_ios_11) and [Basic Rundown](https://github.com/JakeBlair420/Spice/blob/master/README.md))
 
 **Hardware**
 
@@ -84,7 +92,6 @@ Note on ARM documents:
 **SEP**
 
 - Tarjei Mandt, Mathew Solnik, David Wang - [Demystifying the  Secure Enclave Processor](https://www.blackhat.com/docs/us-16/materials/us-16-Mandt-Demystifying-The-Secure-Enclave-Processor.pdf)
-
 
 ## Write-Ups
 
@@ -115,8 +122,11 @@ Note on ARM documents:
 - Google Project Zero - [A very deep dive into iOS Exploit chains found in the wild](https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html)
   - Ian Beer - Parts [One](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-1.html), [Two](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-2.html), [Three](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-3.html), [Four](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-4.html), [Five](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-5.html) and [Implant Teardown](https://googleprojectzero.blogspot.com/2019/08/implant-teardown.html)
   - Samuel Groß - [JSC Exploits](https://googleprojectzero.blogspot.com/2019/08/jsc-exploits.html)
+- Ned Williamson - [SockPuppet](https://googleprojectzero.blogspot.com/2019/12/sockpuppet-walkthrough-of-kernel.html)
+- Samuel Groß - Remote iPhone Exploitation (Parts [One](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-1.html), [Two](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-2.html) and [Three](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-3.html))
+- Siguza - [cuck00](https://siguza.github.io/cuck00/)
 
 ## Other Lists
 
-* qwertyoruiopz - iOS Reverse Engineering ([Wiki](https://github.com/kpwn/iOSRE/tree/master/wiki) and [Papers](https://github.com/kpwn/iOSRE/tree/master/resources/papers))
-* Google Project Zero - [All the bugs Ian Beer has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:ianbeer@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
+- qwertyoruiopz - iOS Reverse Engineering ([Wiki](https://github.com/kpwn/iOSRE/tree/master/wiki) and [Papers](https://github.com/kpwn/iOSRE/tree/master/resources/papers))
+- Google Project Zero - [All the bugs Ian Beer has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:ianbeer@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
