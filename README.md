@@ -36,6 +36,9 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 **Sandbox**
 
 - Jonathan Levin - The Apple Sandbox ([Video](https://youtu.be/mG715HcDgO8) and [Slides](http://newosxbook.com/files/HITSB.pdf)) <!-- Sep 2016 -->
+- iBSparkes - [Breaking Entitlements](https://sparkes.zone/blog/ios/2018/04/06/diving-into-the-kernel-entitlements.html) <!-- Apr 2018 -->
+- stek29 - [Shenanigans, Shenanigans!](https://stek29.rocks/2018/12/11/shenanigans.html) <!-- Dec 2018 -->
+- argp - [vs com.apple.security.sandbox](https://census-labs.com/media/sandbox-argp-csw2019-public.pdf) <!-- March 2019 -->
 
 **IPC**
 
@@ -46,7 +49,8 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 **File Systems**
 
 - Apple - [APFS Reference](https://developer.apple.com/support/apple-file-system/Apple-File-System-Reference.pdf)
-- bxl1989 - [Understanding and Attacking Apple File System](https://bxl1989.github.io/2019/01/17/apfs-remount.html)
+- stek29 - [LightweightVolumeManager::\_mapForIO](https://stek29.rocks/2018/01/22/lwvm-mapforio.html) <!-- Jan 2018 -->
+- bxl1989 - [Understanding and Attacking Apple File System](https://bxl1989.github.io/2019/01/17/apfs-remount.html) <!-- Jan 2019 -->
 
 **Kernel**
 
@@ -55,6 +59,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Apple - [About the Virtual Memory System](https://developer.apple.com/library/content/documentation/Performance/Conceptual/ManagingMemory/Articles/AboutMemory.html)
 - qwertyoruiopz - Attacking XNU (Part [One](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=38) and [Two](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=48)) <!-- July 2015 -->
 - Stefan Esser - [Kernel Heap](http://gsec.hitb.org/materials/sg2016/D2%20-%20Stefan%20Esser%20-%20iOS%2010%20Kernel%20Heap%20Revisited.pdf) <!-- Aug 2016 -->
+- stek29 - [NVRAM lock/unlock](https://stek29.rocks/2018/06/26/nvram.html) <!-- Jun 2018 -->
 
 **Kernel Integrity**
 
@@ -122,12 +127,14 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Ian Beer - [multi_path](https://bugs.chromium.org/p/project-zero/issues/detail?id=1558#c3)
 - Brandon Azad - [blanket](https://github.com/bazad/blanket)
 - Brandon Azad - [voucher_swap](https://googleprojectzero.blogspot.com/2019/01/voucherswap-exploiting-mig-reference.html)
+- iBSparkes - [MachSwap](https://sparkes.zone/blog/ios/2019/04/30/machswap-ios-12-kernel-exploit.html)
 - Ian Beer - [Splitting atoms in XNU](https://googleprojectzero.blogspot.com/2019/04/splitting-atoms-in-xnu.html)
 - Natalie Silvanovich - [The Many Possibilities of CVE-2019-8646](https://googleprojectzero.blogspot.com/2019/08/the-many-possibilities-of-cve-2019-8646.html)
 - Google Project Zero - [A very deep dive into iOS Exploit chains found in the wild](https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html)
   - Ian Beer - Parts [One](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-1.html), [Two](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-2.html), [Three](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-3.html), [Four](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-4.html), [Five](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-5.html) and [Implant Teardown](https://googleprojectzero.blogspot.com/2019/08/implant-teardown.html)
   - Samuel Groß - [JSC Exploits](https://googleprojectzero.blogspot.com/2019/08/jsc-exploits.html)
 - Ned Williamson - [SockPuppet](https://googleprojectzero.blogspot.com/2019/12/sockpuppet-walkthrough-of-kernel.html)
+- jsherma100 - [used_sock](https://jsherman212.github.io/used_sock/)
 - Samuel Groß - Remote iPhone Exploitation (Parts [One](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-1.html), [Two](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-2.html) and [Three](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-3.html))
 - Siguza - [cuck00](https://siguza.github.io/cuck00/)
 
@@ -135,3 +142,5 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 - qwertyoruiopz - iOS Reverse Engineering ([Wiki](https://github.com/kpwn/iOSRE/tree/master/wiki) and [Papers](https://github.com/kpwn/iOSRE/tree/master/resources/papers))
 - Google Project Zero - [All the bugs Ian Beer has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:ianbeer@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
+- Google Project Zero - [All the bugs Brandon Azad has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:bazad@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
+- Google Project Zero - [All the bugs Ned Williamson has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:nedwill@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
