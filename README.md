@@ -8,6 +8,7 @@ Official references:
 - [ARMv8 Architecture Reference Manual](https://developer.arm.com/docs/ddi0487/latest) (long)
 - [ARM A-Profile Exploration tools](https://developer.arm.com/products/architecture/cpu-architecture/a-profile/exploration-tools) (same as above, but in machine readable form)
 - [ARM System Architecture Software Standards](https://developer.arm.com/architectures/system-architectures/software-standards) (ABIs, extensions, etc.)
+- [Clang Pointer Authentication ABI](https://github.com/apple/llvm-project/blob/apple/master/clang/docs/PointerAuthentication.rst)
 
 My own doing:
 
@@ -134,9 +135,9 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
   - Ian Beer - Parts [One](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-1.html), [Two](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-2.html), [Three](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-3.html), [Four](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-4.html), [Five](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-5.html) and [Implant Teardown](https://googleprojectzero.blogspot.com/2019/08/implant-teardown.html)
   - Samuel Groß - [JSC Exploits](https://googleprojectzero.blogspot.com/2019/08/jsc-exploits.html)
 - Ned Williamson - [SockPuppet](https://googleprojectzero.blogspot.com/2019/12/sockpuppet-walkthrough-of-kernel.html)
-- jsherma100 - [used_sock](https://jsherman212.github.io/used_sock/)
 - Samuel Groß - Remote iPhone Exploitation (Parts [One](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-1.html), [Two](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-2.html) and [Three](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-3.html))
 - Siguza - [cuck00](https://siguza.github.io/cuck00/)
+- jsherma100 - [used_sock](https://jsherman212.github.io/used_sock/)
 
 ## Other Lists
 
