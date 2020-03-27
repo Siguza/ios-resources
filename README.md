@@ -50,6 +50,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 - Apple - [APFS Reference](https://developer.apple.com/support/apple-file-system/Apple-File-System-Reference.pdf)
 - stek29 - [LightweightVolumeManager::\_mapForIO](https://stek29.rocks/2018/01/22/lwvm-mapforio.html) <!-- Jan 2018 -->
+- bxl1989 - [Understanding and Attacking Apple File System](https://bxl1989.github.io/2019/01/17/apfs-remount.html) <!-- Jan 2019 -->
 
 **Kernel**
 
@@ -97,6 +98,10 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 **SEP**
 
 - Tarjei Mandt, Mathew Solnik, David Wang - [Demystifying the  Secure Enclave Processor](https://www.blackhat.com/docs/us-16/materials/us-16-Mandt-Demystifying-The-Secure-Enclave-Processor.pdf)
+
+**Bootloader**
+
+- a1exdandy - [Technical analysis of the checkm8 exploit](https://habr.com/en/company/dsec/blog/472762/)
 
 ## Write-Ups
 
