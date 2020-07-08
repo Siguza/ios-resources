@@ -95,6 +95,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Ramtin Amin - [Lightning Connector](http://ramtin-amin.fr/#tristar)
 - Ramtin Amin - [NVMe NAND Storage](http://ramtin-amin.fr/#nvmepcie)
 - Ramtin Amin - [iPhone PCIe (dumping the 6s BootROM)](http://ramtin-amin.fr/#nvmedma)
+- Nyan Satan - [Apple Lightning](https://nyansatan.github.io/lightning/)
 
 **SEP**
 
@@ -138,6 +139,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Samuel Groß - Remote iPhone Exploitation (Parts [One](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-1.html), [Two](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-2.html) and [Three](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-3.html))
 - Siguza - [cuck00](https://siguza.github.io/cuck00/)
 - jsherma100 - [used_sock](https://jsherman212.github.io/used_sock/)
+- Siguza - [Psychic Paper](https://siguza.github.io/psychicpaper/)
 
 ## Other Lists
 
@@ -145,3 +147,4 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Google Project Zero - [All the bugs Ian Beer has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:ianbeer@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
 - Google Project Zero - [All the bugs Brandon Azad has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:bazad@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
 - Google Project Zero - [All the bugs Ned Williamson has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:nedwill@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
+- Google Project Zero - [A survey of recent iOS kernel exploits](https://googleprojectzero.blogspot.com/2020/06/a-survey-of-recent-ios-kernel-exploits.html)
