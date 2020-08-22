@@ -101,10 +101,12 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 - Tarjei Mandt, Mathew Solnik, David Wang - [Demystifying the  Secure Enclave Processor](https://www.blackhat.com/docs/us-16/materials/us-16-Mandt-Demystifying-The-Secure-Enclave-Processor.pdf)
 - David Wang, Chris Wade - [SEPOS: A Guided Tour](https://data.hackinn.com/ppt/2018%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E5%9B%BD%E9%99%85%E6%8A%80%E6%9C%AF%E5%B3%B0%E4%BC%9A/SEPOS%EF%BC%9AA%20Guided%20Tour.pdf)
+- windknown - [Attack Secure Boot of SEP](https://github.com/windknown/presentations/blob/master/Attack_Secure_Boot_of_SEP.pdf)
 
 **Bootloader**
 
 - a1exdandy - [Technical analysis of the checkm8 exploit](https://habr.com/en/company/dsec/blog/472762/)
+- Jonathan Levin - [\*OS: iBoot](http://newosxbook.com/bonus/iBoot.pdf)
 
 ## Write-Ups
 
