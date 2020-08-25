@@ -142,7 +142,10 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Samuel Groß - Remote iPhone Exploitation (Parts [One](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-1.html), [Two](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-2.html) and [Three](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-3.html))
 - Siguza - [cuck00](https://siguza.github.io/cuck00/)
 - jsherma100 - [used_sock](https://jsherman212.github.io/used_sock/)
+- Samuel Groß - [Fuzzing ImageIO](https://googleprojectzero.blogspot.com/2020/04/fuzzing-imageio.html)
 - Siguza - [Psychic Paper](https://siguza.github.io/psychicpaper/)
+- Brandon Azad - [One Byte to rule them all](https://googleprojectzero.blogspot.com/2020/07/one-byte-to-rule-them-all.html)
+- Brandon Azad - [The core of Apple is PPL: Breaking the XNU kernel's kernel](https://googleprojectzero.blogspot.com/2020/07/the-core-of-apple-is-ppl-breaking-xnu.html)
 
 ## Other Lists
 
