@@ -61,6 +61,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - qwertyoruiopz - Attacking XNU (Part [One](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=38) and [Two](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=48)) <!-- July 2015 -->
 - Stefan Esser - [Kernel Heap](http://gsec.hitb.org/materials/sg2016/D2%20-%20Stefan%20Esser%20-%20iOS%2010%20Kernel%20Heap%20Revisited.pdf) <!-- Aug 2016 -->
 - stek29 - [NVRAM lock/unlock](https://stek29.rocks/2018/06/26/nvram.html) <!-- Jun 2018 -->
+- h3adsh0tzz [Inside XNU Introduction [(https://h3adsh0tzz.com/2020/09/inside-xnu-introduction/) <!-- Sep 2020 -->
 
 **Kernel Integrity**
 
