@@ -34,6 +34,9 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Jonathan Levin - [DYLD DetaYLeD](http://www.newosxbook.com/articles/DYLD.html) <!-- Aug 2013 -->
 - Jonathan Levin - [Code Signing](http://www.newosxbook.com/articles/CodeSigning.pdf) <!-- April 2015 -->
 
+**Software Images**
+- Jonathan Levin - [Spitting Image: MacOS & *OS Software Images](http://newosxbook.com/bonus/vol1AppA.html)
+
 **Sandbox**
 
 - Jonathan Levin - The Apple Sandbox ([Video](https://youtu.be/mG715HcDgO8) and [Slides](http://newosxbook.com/files/HITSB.pdf)) <!-- Sep 2016 -->
@@ -61,7 +64,8 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - qwertyoruiopz - Attacking XNU (Part [One](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=38) and [Two](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=48)) <!-- July 2015 -->
 - Stefan Esser - [Kernel Heap](http://gsec.hitb.org/materials/sg2016/D2%20-%20Stefan%20Esser%20-%20iOS%2010%20Kernel%20Heap%20Revisited.pdf) <!-- Aug 2016 -->
 - stek29 - [NVRAM lock/unlock](https://stek29.rocks/2018/06/26/nvram.html) <!-- Jun 2018 -->
-- Jonathan Levin - [Mac OS X and iOS Internals: To the Apple's Core (2012)](http://www.newosxbook.com/MOXiI.pdf) <!-- Oct 2020 -->
+- Jonathan Levin - [Mac OS X and iOS Internals: To the Apple's Core (2012)](http://www.newosxbook.com/MOXiI.pdf)
+- Jonathan Levin - [Ceci n'est pas une "heap": Kernel Memory Management](http://newosxbook.com/bonus/vol1ch16.html)
 
 **Kernel Integrity**
 
