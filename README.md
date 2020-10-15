@@ -8,7 +8,7 @@ Official references:
 - [ARMv8 Architecture Reference Manual](https://developer.arm.com/docs/ddi0487/latest) (long)
 - [ARM A-Profile Exploration tools](https://developer.arm.com/products/architecture/cpu-architecture/a-profile/exploration-tools) (same as above, but in machine readable form)
 - [ARM System Architecture Software Standards](https://developer.arm.com/architectures/system-architectures/software-standards) (ABIs, extensions, etc.)
-- [Clang Pointer Authentication ABI](https://github.com/apple/llvm-project/blob/apple/master/clang/docs/PointerAuthentication.rst)
+- [Clang Pointer Authentication ABI](https://github.com/apple/llvm-project/blob/apple/main/clang/docs/PointerAuthentication.rst)
 
 My own doing:
 
