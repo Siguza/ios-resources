@@ -17,6 +17,7 @@ My own doing:
 <!-- TODO: something about C++ vtables -->
 <!-- TODO: something about symbol stubs -->
 
+<table><tr><td>
 Note on ARM documents:
 
 Both infocenter.arm.com and developer.arm.com are outright nightmares to navigate, and search engines don't help either. But if you have any ARM document as a PDF and want to check for a newer version, there is a neat trick. At the bottom of any page of the PDF, you should have a document identifier like so:
@@ -26,6 +27,7 @@ Both infocenter.arm.com and developer.arm.com are outright nightmares to navigat
 That should have the form `ARM XXX ddddX.x`. Take the three letters and following four digits (in this case, `DDI0406`) and construct an URL like so:  
 `https://developer.arm.com/docs/XXXdddd/latest`  
 (In this case, `https://developer.arm.com/docs/DDI0406/latest`.)
+</td></tr></table>
 
 ## Internals
 
@@ -146,6 +148,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Siguza - [Psychic Paper](https://siguza.github.io/psychicpaper/)
 - Brandon Azad - [One Byte to rule them all](https://googleprojectzero.blogspot.com/2020/07/one-byte-to-rule-them-all.html)
 - Brandon Azad - [The core of Apple is PPL: Breaking the XNU kernel's kernel](https://googleprojectzero.blogspot.com/2020/07/the-core-of-apple-is-ppl-breaking-xnu.html)
+- Ian Beer - [An iOS zero-click radio proximity exploit odyssey](https://googleprojectzero.blogspot.com/2020/12/an-ios-zero-click-radio-proximity.html)
 
 ## Other Lists
 
@@ -154,3 +157,10 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Google Project Zero - [All the bugs Brandon Azad has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:bazad@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
 - Google Project Zero - [All the bugs Ned Williamson has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:nedwill@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
 - Google Project Zero - [A survey of recent iOS kernel exploits](https://googleprojectzero.blogspot.com/2020/06/a-survey-of-recent-ios-kernel-exploits.html)
+
+## Community
+
+"Hack Different" is a Discord server about hacking, reverse engineering and development loosely on and around Apple platforms.  
+It has a relaxed atmosphere and is a great place to hand out and connect with fellow tinkerers and enthusiasts.
+
+[![Hack Different](https://discordapp.com/api/guilds/779134930265309195/widget.png?style=banner2)](https://discord.gg/NAxRYvysuc)
