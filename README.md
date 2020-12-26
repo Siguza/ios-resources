@@ -161,6 +161,6 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 ## Community
 
 "Hack Different" is a Discord server about hacking, reverse engineering and development loosely on and around Apple platforms.  
-It has a relaxed atmosphere and is a great place to hand out and connect with fellow tinkerers and enthusiasts.
+It has a relaxed atmosphere and is a great place to hang out and connect with fellow tinkerers and enthusiasts.
 
 [![Hack Different](https://discordapp.com/api/guilds/779134930265309195/widget.png?style=banner2)](https://discord.gg/NAxRYvysuc)
