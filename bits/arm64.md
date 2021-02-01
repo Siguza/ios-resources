@@ -16,7 +16,7 @@ _Note: May or may not be specific to iOS._
 ### Register manipulation
 
 -   `mov` to copy one register to another, e.g. `mov x0, x1` -> `x0 = x1`.
--   Constant `0` loaded from `wzr`/`xzw`.
+-   Constant `0` loaded from `wzr`/`xzr`.
 -   Small constants usually OR'ed with zero register, e.g. `orr x0, xzr, 5`.
 -   Big constants usually loaded with `movz`+`movk`, e.g.:
     ```asm
