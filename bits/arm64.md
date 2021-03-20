@@ -183,5 +183,5 @@ _Note: Only dealing with integral types here. The rules change when floating-poi
 ### Miscellaneous
 
 -   `nop` = do nothing
--   `svc` = make a system call using an immediate value (e.g. `svc 0x80`). Note that the immediate value is separate from the syscall number. XNU ignores the immediate and passes the syscall number in x16.
+-   `svc` = make a system call using an immediate value (e.g. `svc 0x80`). Note that the immediate value is separate from the syscall number. XNU ignores the immediate and expects the syscall number in `x16`.
 -   `.` = special symbol that refers to the address of the instruction it is used in (e.g. `adr x0, .`)
