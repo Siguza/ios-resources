@@ -169,7 +169,7 @@ _Note: Only dealing with integral types here. The rules change when floating-poi
     b.ne 0x...
     ```
     (Translate nicely to C `if(x)` or `if(!x)`.)
--   Shortcurts `tbz`/`tbnz` = test single bit and branch if zero/non-zero.  
+-   Shortcuts `tbz`/`tbnz` = test single bit and branch if zero/non-zero.  
     E.g. `tbz x0, 3, ...` translates to `if((x0 & (1 << 3)) == 0) goto ...`.
 -   `bl` = branch-and-link (e.g. `bl 0xffffff8012345678`)  
     Store return address to `x30` and jump to PC-relative address. Used for static function calls.
@@ -179,3 +179,9 @@ _Note: Only dealing with integral types here. The rules change when floating-poi
     Jump to address in `x8`. Used for tail calls.
 -   `ret` = return to address in register, default: `x30`  
     Can in theory use registers other than `x30` (e.g. `ret x8`), but compiler doesn't usually generate that.
+    
+### Miscellaneous
+
+-   `nop` = do nothing
+-   `svc` = make a system call using a system call number (e.g. `svc 0x80`)
+-   `.` = special symbol that refers to the address of the instruction it is used in (e.g. `adr x0, .`)
