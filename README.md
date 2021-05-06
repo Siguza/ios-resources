@@ -83,6 +83,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 - Siguza - [APRR](https://siguza.github.io/APRR/)
 - Siguza - [PAN](https://siguza.github.io/PAN/)
+- Sven Peter - [SPRR & GXF](https://blog.svenpeter.dev/posts/m1_sprr_gxf/)
 
 **Remote Targets**
 
