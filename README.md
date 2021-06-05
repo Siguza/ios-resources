@@ -150,6 +150,8 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Brandon Azad - [One Byte to rule them all](https://googleprojectzero.blogspot.com/2020/07/one-byte-to-rule-them-all.html)
 - Brandon Azad - [The core of Apple is PPL: Breaking the XNU kernel's kernel](https://googleprojectzero.blogspot.com/2020/07/the-core-of-apple-is-ppl-breaking-xnu.html)
 - Ian Beer - [An iOS zero-click radio proximity exploit odyssey](https://googleprojectzero.blogspot.com/2020/12/an-ios-zero-click-radio-proximity.html)
+- Alex Plaskett - [XNU Kernel Memory Disclosure](https://alexplaskett.github.io/CVE-2021-30660/)
+- Mickey Jin - [CVMServer Vulnerability in macOS and iOS](https://www.trendmicro.com/en_us/research/21/f/CVE-2021-30724_CVMServer_Vulnerability_in_macOS_and_iOS.html)
 
 ## Other Lists
 
