@@ -144,14 +144,19 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Ned Williamson - [SockPuppet](https://googleprojectzero.blogspot.com/2019/12/sockpuppet-walkthrough-of-kernel.html)
 - Samuel Groß - Remote iPhone Exploitation (Parts [One](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-1.html), [Two](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-2.html) and [Three](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-3.html))
 - Siguza - [cuck00](https://siguza.github.io/cuck00/)
-- jsherma100 - [used_sock](https://jsherman212.github.io/used_sock/)
+- Justin Sherman - [used_sock](https://jsherman212.github.io/used_sock/)
 - Samuel Groß - [Fuzzing ImageIO](https://googleprojectzero.blogspot.com/2020/04/fuzzing-imageio.html)
 - Siguza - [Psychic Paper](https://siguza.github.io/psychicpaper/)
 - Brandon Azad - [One Byte to rule them all](https://googleprojectzero.blogspot.com/2020/07/one-byte-to-rule-them-all.html)
 - Brandon Azad - [The core of Apple is PPL: Breaking the XNU kernel's kernel](https://googleprojectzero.blogspot.com/2020/07/the-core-of-apple-is-ppl-breaking-xnu.html)
 - Ian Beer - [An iOS zero-click radio proximity exploit odyssey](https://googleprojectzero.blogspot.com/2020/12/an-ios-zero-click-radio-proximity.html)
+- Alex Plaskett - [Apple macOS 6LowPAN Vulnerability](https://alexplaskett.github.io/CVE-2020-9967/)
 - Alex Plaskett - [XNU Kernel Memory Disclosure](https://alexplaskett.github.io/CVE-2021-30660/)
 - Mickey Jin - [CVMServer Vulnerability in macOS and iOS](https://www.trendmicro.com/en_us/research/21/f/CVE-2021-30724_CVMServer_Vulnerability_in_macOS_and_iOS.html)
+- K³ - [Writing an iOS Kernel Exploit from Scratch](https://secfault-security.com/blog/chain3.html)
+- CodeColorist - [Mistuned Part 1: Client-side XSS to Calculator and More](https://blog.chichou.me/2021/08/04/mistuned-part-i/)
+- CodeColorist - [Mistuned Part 2: Butterfly Effect](https://blog.chichou.me/2021/08/05/mistuned-part-ii/)
+- Justin Sherman - [CVE-2021-30656 kernel info leak](https://jsherman212.github.io/CVE-2021-30656/)
 
 ## Other Lists
 
