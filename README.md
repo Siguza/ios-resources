@@ -33,6 +33,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 **Mach-O**
 
+- m4b - [Mach-O binaries](http://www.m4b.io/reverse/engineering/mach/binaries/2015/03/29/mach-binaries.html)
 - Jonathan Levin - [DYLD DetaYLeD](http://www.newosxbook.com/articles/DYLD.html) <!-- Aug 2013 -->
 - Jonathan Levin - [Code Signing](http://www.newosxbook.com/articles/CodeSigning.pdf) <!-- April 2015 -->
 
