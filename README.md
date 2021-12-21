@@ -68,7 +68,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 **Kernel Integrity**
 
 - xerub - [Tick Tock](https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html)
-- Siguza - [KTRR](https://siguza.github.io/KTRR/)
+- Siguza - [KTRR](https://blog.siguza.net/KTRR/)
 - Jonathan Levin - [Casa de PPL](http://newosxbook.com/articles/CasaDePPL.html)
 - Brandon Azad - KTRW: The journey to build a debuggable iPhone ([Blog Post](https://googleprojectzero.blogspot.com/2019/10/ktrw-journey-to-build-debuggable-iphone.html) and [Video](https://media.ccc.de/v/36c3-10806-ktrw_the_journey_to_build_a_debuggable_iphone))
 
@@ -82,8 +82,8 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 **Other Mitigations**
 
-- Siguza - [APRR](https://siguza.github.io/APRR/)
-- Siguza - [PAN](https://siguza.github.io/PAN/)
+- Siguza - [APRR](https://blog.siguza.net/APRR/)
+- Siguza - [PAN](https://blog.siguza.net/PAN/)
 - Sven Peter - [SPRR & GXF](https://blog.svenpeter.dev/posts/m1_sprr_gxf/)
 
 **Remote Targets**
@@ -121,14 +121,14 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - qwertyoruiopz - [About the “tpwn” Local Privilege Escalation](https://web.archive.org/web/20160131055957/http://blog.qwertyoruiop.com/?p=69)
 - Ian Beer - [task_t considered harmful](https://googleprojectzero.blogspot.ch/2016/10/taskt-considered-harmful.html)
 - jndok - [Exploiting Pegasus on OS X](https://jndok.github.io/2016/10/04/pegasus-writeup/)
-- Siguza - [Exploiting Pegasus on iOS](https://siguza.github.io/cl0ver/)
+- Siguza - [Exploiting Pegasus on iOS](https://blog.siguza.net/cl0ver/)
 - Ian Beer - mach_portal ([write-up](https://bugs.chromium.org/p/project-zero/issues/detail?id=965#c2) and [presentation slides](https://bugs.chromium.org/p/project-zero/issues/attachment?aid=280146&signed_aid=lcE7kSko3drFdbx2ApJb7A==))
 - Ian Beer - [Exception-oriented exploitation on iOS](https://googleprojectzero.blogspot.ch/2017/04/exception-oriented-exploitation-on-ios.html)
 - Jonathan Levin - [Phœnix](http://newosxbook.com/files/PhJB.pdf)
 - Gal Beniamini - Over The Air (Parts [One](https://googleprojectzero.blogspot.ch/2017/09/over-air-vol-2-pt-1-exploiting-wi-fi.html), [Two](https://googleprojectzero.blogspot.ch/2017/10/over-air-vol-2-pt-2-exploiting-wi-fi.html) and [Three](https://googleprojectzero.blogspot.ch/2017/10/over-air-vol-2-pt-3-exploiting-wi-fi.html))
-- Siguza - [v0rtex](https://siguza.github.io/v0rtex/)
+- Siguza - [v0rtex](https://blog.siguza.net/v0rtex/)
 - Ian Beer - [async_wake_ios](https://bugs.chromium.org/p/project-zero/issues/detail?id=1417#c3)
-- Siguza - [IOHIDeous](https://siguza.github.io/IOHIDeous/)
+- Siguza - [IOHIDeous](https://blog.siguza.net/IOHIDeous/)
 - Jonathan Levin - QiLin ([PDF](http://newosxbook.com/QiLin/qilin.pdf) and [API](http://newosxbook.com/QiLin/))
 - Brandon Azad - [A fun XNU infoleak](https://bazad.github.io/2018/03/a-fun-xnu-infoleak/)
 - jeffball - [Heap overflow in necp_client_action](https://github.com/grimm-co/NotQuite0DayFriday/blob/master/2018.04.06-macos/notes.txt)
@@ -144,20 +144,29 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
   - Samuel Groß - [JSC Exploits](https://googleprojectzero.blogspot.com/2019/08/jsc-exploits.html)
 - Ned Williamson - [SockPuppet](https://googleprojectzero.blogspot.com/2019/12/sockpuppet-walkthrough-of-kernel.html)
 - Samuel Groß - Remote iPhone Exploitation (Parts [One](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-1.html), [Two](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-2.html) and [Three](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-3.html))
-- Siguza - [cuck00](https://siguza.github.io/cuck00/)
-- Justin Sherman - [used_sock](https://jsherman212.github.io/used_sock/)
+- Siguza - [cuck00](https://blog.siguza.net/cuck00/)
+- Justin Sherman - [used_sock](https://jsherman212.github.io/2020/02/06/used_sock.html)
 - Samuel Groß - [Fuzzing ImageIO](https://googleprojectzero.blogspot.com/2020/04/fuzzing-imageio.html)
-- Siguza - [Psychic Paper](https://siguza.github.io/psychicpaper/)
+- Siguza - [Psychic Paper](https://blog.siguza.net/psychicpaper/)
 - Brandon Azad - [One Byte to rule them all](https://googleprojectzero.blogspot.com/2020/07/one-byte-to-rule-them-all.html)
 - Brandon Azad - [The core of Apple is PPL: Breaking the XNU kernel's kernel](https://googleprojectzero.blogspot.com/2020/07/the-core-of-apple-is-ppl-breaking-xnu.html)
 - Ian Beer - [An iOS zero-click radio proximity exploit odyssey](https://googleprojectzero.blogspot.com/2020/12/an-ios-zero-click-radio-proximity.html)
 - Alex Plaskett - [Apple macOS 6LowPAN Vulnerability](https://alexplaskett.github.io/CVE-2020-9967/)
+- Luca Moro - [Analysis and exploitation of the iOS kernel vulnerability CVE-2021-1782](https://www.synacktiv.com/publications/analysis-and-exploitation-of-the-ios-kernel-vulnerability-cve-2021-1782)
 - Alex Plaskett - [XNU Kernel Memory Disclosure](https://alexplaskett.github.io/CVE-2021-30660/)
+- Jack Dates - [Exploitation of a JavaScriptCore WebAssembly Vulnerability](https://blog.ret2.io/2021/06/02/pwn2own-2021-jsc-exploit/)
 - Mickey Jin - [CVMServer Vulnerability in macOS and iOS](https://www.trendmicro.com/en_us/research/21/f/CVE-2021-30724_CVMServer_Vulnerability_in_macOS_and_iOS.html)
 - K³ - [Writing an iOS Kernel Exploit from Scratch](https://secfault-security.com/blog/chain3.html)
 - CodeColorist - [Mistuned Part 1: Client-side XSS to Calculator and More](https://blog.chichou.me/2021/08/04/mistuned-part-i/)
 - CodeColorist - [Mistuned Part 2: Butterfly Effect](https://blog.chichou.me/2021/08/05/mistuned-part-ii/)
-- Justin Sherman - [CVE-2021-30656 kernel info leak](https://jsherman212.github.io/CVE-2021-30656/)
+- Justin Sherman - [CVE-2021-30656 kernel info leak](https://jsherman212.github.io/2021/08/19/CVE-2021-30656.html)
+- Samuel Groß - [Attacking JavaScript Engines](http://www.phrack.org/issues/70/3.html#article)
+- Samuel Groß - [Compile Your Own Type Confusions](http://www.phrack.org/issues/70/9.html#article)
+- Adam Donenfeld - [(De)coding an iOS Kernel Vulnerability](http://www.phrack.org/issues/70/8.html#article)
+- xerub - [The Bear in the Arena](http://www.phrack.org/issues/70/12.html#article)
+- Linus Henze - [Fugu14](https://raw.githubusercontent.com/LinusHenze/Fugu14/master/Writeup.pdf)
+- Justin Sherman - [Popping iOS <=14.7 with IOMFB](https://jsherman212.github.io/2021/11/28/popping_ios14_with_iomfb.html)
+- Ian Beer & Samuel Groß - [A deep dive into an NSO zero-click iMessage exploit](https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html)
 
 ## Other Lists
 
