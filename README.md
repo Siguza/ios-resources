@@ -112,6 +112,10 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - a1exdandy - [Technical analysis of the checkm8 exploit](https://habr.com/en/company/dsec/blog/472762/)
 - Jonathan Levin - [\*OS: iBoot](http://newosxbook.com/bonus/iBoot.pdf)
 
+**Memory Safety**
+
+- Saar Amar - [An Armful of CHERIs](https://msrc-blog.microsoft.com/2022/01/20/an_armful_of_cheris/)
+
 ## Write-Ups
 
 - geohot - [evasi0n7](http://geohot.com/e7writeup.html)
