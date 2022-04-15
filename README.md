@@ -115,6 +115,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 **Memory Safety**
 
 - Saar Amar - [An Armful of CHERIs](https://msrc-blog.microsoft.com/2022/01/20/an_armful_of_cheris/)
+- Saar Amar - Security Analysis of MTE Through Examples [Slides](https://github.com/saaramar/security_analysis_mte/blob/main/Security%20Analysis%20of%20MTE%20Through%20Examples.pdf) and [Video](https://www.youtube.com/watch?v=LV8BK1ns1Ow)
 
 ## Write-Ups
 
