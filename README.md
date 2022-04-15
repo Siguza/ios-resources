@@ -172,6 +172,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Linus Henze - [Fugu14](https://raw.githubusercontent.com/LinusHenze/Fugu14/master/Writeup.pdf)
 - Justin Sherman - [Popping iOS <=14.7 with IOMFB](https://jsherman212.github.io/2021/11/28/popping_ios14_with_iomfb.html)
 - Ian Beer & Samuel Groß - [A deep dive into an NSO zero-click iMessage exploit](https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html)
+- AsahiLinux - [Introduction to Apple Silicon](https://github.com/AsahiLinux/docs/wiki/Introduction-to-Apple-Silicon)
 
 ## Other Lists
 
