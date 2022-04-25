@@ -86,6 +86,10 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Siguza - [PAN](https://blog.siguza.net/PAN/)
 - Sven Peter - [SPRR & GXF](https://blog.svenpeter.dev/posts/m1_sprr_gxf/)
 
+**Web**
+
+- Samuel Groß & Amy Burnett - Attacking JavaScript Engines in 2022 ([Video](https://www.youtube.com/watch?v=FK2-1FAbbXA) and [Slides](https://saelo.github.io/presentations/offensivecon_22_attacking_javascript_engines.pdf))
+
 **Remote Targets**
 
 - Natalie Silvanovich - [The Fully Remote Attack Surface of the iPhone](https://googleprojectzero.blogspot.com/2019/08/the-fully-remote-attack-surface-of.html)
@@ -115,7 +119,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 **Memory Safety**
 
 - Saar Amar - [An Armful of CHERIs](https://msrc-blog.microsoft.com/2022/01/20/an_armful_of_cheris/)
-- Saar Amar - Security Analysis of MTE Through Examples [Slides](https://github.com/saaramar/security_analysis_mte/blob/main/Security%20Analysis%20of%20MTE%20Through%20Examples.pdf) and [Video](https://www.youtube.com/watch?v=LV8BK1ns1Ow)
+- Saar Amar - Security Analysis of MTE Through Examples ([Video](https://www.youtube.com/watch?v=LV8BK1ns1Ow) and [Slides](https://github.com/saaramar/security_analysis_mte/blob/main/Security%20Analysis%20of%20MTE%20Through%20Examples.pdf))
 
 ## Write-Ups
 
