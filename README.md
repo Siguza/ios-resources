@@ -115,6 +115,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 - a1exdandy - [Technical analysis of the checkm8 exploit](https://habr.com/en/company/dsec/blog/472762/)
 - Jonathan Levin - [\*OS: iBoot](http://newosxbook.com/bonus/iBoot.pdf)
+- Saar Amar - [Firebloom](https://saaramar.github.io/iBoot_firebloom/)
 
 **Memory Safety**
 
