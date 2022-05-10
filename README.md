@@ -115,12 +115,12 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 - a1exdandy - [Technical analysis of the checkm8 exploit](https://habr.com/en/company/dsec/blog/472762/)
 - Jonathan Levin - [\*OS: iBoot](http://newosxbook.com/bonus/iBoot.pdf)
-- Saar Amar - Firebloom ([Introduction](https://saaramar.github.io/iBoot_firebloom/), [Type descriptors](https://saaramar.github.io/iBoot_firebloom_type_desc/))
 
 **Memory Safety**
 
 - Saar Amar - [An Armful of CHERIs](https://msrc-blog.microsoft.com/2022/01/20/an_armful_of_cheris/)
 - Saar Amar - Security Analysis of MTE Through Examples ([Video](https://www.youtube.com/watch?v=LV8BK1ns1Ow) and [Slides](https://github.com/saaramar/security_analysis_mte/blob/main/Security%20Analysis%20of%20MTE%20Through%20Examples.pdf))
+- Saar Amar - Firebloom ([Introduction](https://saaramar.github.io/iBoot_firebloom/), [Type descriptors](https://saaramar.github.io/iBoot_firebloom_type_desc/))
 
 ## Write-Ups
 
