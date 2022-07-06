@@ -41,7 +41,7 @@ _Note: May or may not be specific to iOS._
         `stp x0, x1, [x2]` -> `*x2 = x0; *(x2 + 8) = x1;`
     -   Multiple variations for load/store size:
         -   Register names `xN` for 64-bit, `wN` for 32-bit
-        -   `ldrh`/`srth` for 16-bit
+        -   `ldrh`/`strh` for 16-bit
         -   `ldrb`/`strb` for  8-bit
     -   Multiple variations for sign-extending registers smaller than 64-bit:
         -   `ldrsw x0, [x1]` -> load 32-bit int, sign extend to 64-bit
