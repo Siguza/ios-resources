@@ -100,9 +100,6 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 **Hardware**
 
-- Ramtin Amin - [Lightning Connector](http://ramtin-amin.fr/#tristar)
-- Ramtin Amin - [NVMe NAND Storage](http://ramtin-amin.fr/#nvmepcie)
-- Ramtin Amin - [iPhone PCIe (dumping the 6s BootROM)](http://ramtin-amin.fr/#nvmedma)
 - Nyan Satan - [Apple Lightning](https://nyansatan.github.io/lightning/)
 
 **SEP**
