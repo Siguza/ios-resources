@@ -186,8 +186,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 - qwertyoruiopz - iOS Reverse Engineering ([Wiki](https://github.com/kpwn/iOSRE/tree/master/wiki) and [Papers](https://github.com/kpwn/iOSRE/tree/master/resources/papers))
 - Google Project Zero - [All the bugs Ian Beer has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:ianbeer@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
-- Google Project Zero - [All the bugs Brandon Azad has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:bazad@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
-- Google Project Zero - [All the bugs Ned Williamson has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:nedwill@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
+- Google Project Zero - [All Apple bugs](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=label:Vendor-Apple&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
 - Google Project Zero - [A survey of recent iOS kernel exploits](https://googleprojectzero.blogspot.com/2020/06/a-survey-of-recent-ios-kernel-exploits.html)
 
 ## Community
