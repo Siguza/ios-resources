@@ -180,6 +180,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Ian Beer & Samuel Groß - [FORCEDENTRY: Sandbox Escape](https://googleprojectzero.blogspot.com/2022/03/forcedentry-sandbox-escape.html)
 - Ian Beer - [CVE-2021-30737, @xerub's 2021 iOS ASN.1 Vulnerability](https://googleprojectzero.blogspot.com/2022/04/cve-2021-30737-xerubs-2021-ios-asn1.html)
 - Ian Beer - [CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers](https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html)
+- Ivan Fratric - [DER Entitlements: The (Brief) Return of the Psychic Paper](https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html)
 
 ## Other Lists
 
