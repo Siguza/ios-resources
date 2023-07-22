@@ -46,7 +46,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 **IPC**
 
-- Apple - Mach ([Overview](https://developer.apple.com/library/content/documentation/Darwin/Conceptual/KernelProgramming/Mach/Mach.html) and API documentation (inside the [XNU source](https://opensource.apple.com/tarballs/xnu/) in `osfmk/man/index.html`))
+- Apple - Mach ([Overview](https://developer.apple.com/library/content/documentation/Darwin/Conceptual/KernelProgramming/Mach/Mach.html) and API documentation (inside the [XNU source](https://github.com/apple-oss-distributions/xnu) in `osfmk/man/index.html`))
 - nemo - [Mach and MIG](https://www.exploit-db.com/papers/13176/) (examples are outdated and for PPC/Intel, but descriptions are still accurate) <!-- 2006 -->
 - Ian Beer - Apple IPC ([Video](https://vimeo.com/127859750) and [Slides](https://thecyberwire.com/events/docs/IanBeer_JSS_Slides.pdf)) <!-- May 2015 -->
 
@@ -80,11 +80,15 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Roberto Avanzi - [Crypto that is Light to Accept](http://tce.webee.eedev.technion.ac.il/wp-content/uploads/sites/8/2016/05/light-crypto-public-2016.04.20.pdf)
 - Rui Zong and Xiaoyang Dong - [Meet-in-the-Middle Attack on QARMA Block Cipher](https://eprint.iacr.org/2016/1160.pdf)
 
-**Other Mitigations**
+**Hardware Mitigations**
 
 - Siguza - [APRR](https://blog.siguza.net/APRR/)
 - Siguza - [PAN](https://blog.siguza.net/PAN/)
 - Sven Peter - [SPRR & GXF](https://blog.svenpeter.dev/posts/m1_sprr_gxf/)
+
+**Software Mitigations**
+
+- blacktop - [Anatomy of Lockdown Mode](https://github.com/blacktop/presentations/blob/main/0x41con_2023/PDF/AnatomyOfLockdownMode.pdf)
 
 **Web**
 
@@ -93,10 +97,6 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 **Remote Targets**
 
 - Natalie Silvanovich - [The Fully Remote Attack Surface of the iPhone](https://googleprojectzero.blogspot.com/2019/08/the-fully-remote-attack-surface-of.html)
-
-**Persistence**
-
-- littlelailo - Tales of old: untethering iOS 11 ([Video](https://media.ccc.de/v/36c3-11034-tales_of_old_untethering_ios_11) and [Basic Rundown](https://github.com/JakeBlair420/Spice/blob/master/README.md))
 
 **Hardware**
 
@@ -109,12 +109,10 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 
 - Tarjei Mandt, Mathew Solnik, David Wang - [Demystifying the  Secure Enclave Processor](https://www.blackhat.com/docs/us-16/materials/us-16-Mandt-Demystifying-The-Secure-Enclave-Processor.pdf)
 - David Wang, Chris Wade - [SEPOS: A Guided Tour](https://data.hackinn.com/ppt/2018%E8%85%BE%E8%AE%AF%E5%AE%89%E5%85%A8%E5%9B%BD%E9%99%85%E6%8A%80%E6%9C%AF%E5%B3%B0%E4%BC%9A/SEPOS%EF%BC%9AA%20Guided%20Tour.pdf)
-- windknown - [Attack Secure Boot of SEP](https://github.com/windknown/presentations/blob/master/Attack_Secure_Boot_of_SEP.pdf)
 
 **Bootloader**
 
-- a1exdandy - [Technical analysis of the checkm8 exploit](https://habr.com/en/company/dsec/blog/472762/)
-- Jonathan Levin - [\*OS: iBoot](http://newosxbook.com/bonus/iBoot.pdf)
+- Jonathan Levin - [iBoot](http://newosxbook.com/bonus/iBoot.pdf)
 
 **Memory Safety**
 
@@ -152,7 +150,9 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Google Project Zero - [A very deep dive into iOS Exploit chains found in the wild](https://googleprojectzero.blogspot.com/2019/08/a-very-deep-dive-into-ios-exploit.html)
   - Ian Beer - Parts [One](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-1.html), [Two](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-2.html), [Three](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-3.html), [Four](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-4.html), [Five](https://googleprojectzero.blogspot.com/2019/08/in-wild-ios-exploit-chain-5.html) and [Implant Teardown](https://googleprojectzero.blogspot.com/2019/08/implant-teardown.html)
   - Samuel Groß - [JSC Exploits](https://googleprojectzero.blogspot.com/2019/08/jsc-exploits.html)
+- a1exdandy - [Technical analysis of the checkm8 exploit](https://habr.com/en/company/dsec/blog/472762/)
 - Ned Williamson - [SockPuppet](https://googleprojectzero.blogspot.com/2019/12/sockpuppet-walkthrough-of-kernel.html)
+- littlelailo - Tales of old: untethering iOS 11 ([Video](https://media.ccc.de/v/36c3-11034-tales_of_old_untethering_ios_11) and [Basic Rundown](https://github.com/JakeBlair420/Spice/blob/master/README.md))
 - Samuel Groß - Remote iPhone Exploitation (Parts [One](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-1.html), [Two](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-2.html) and [Three](https://googleprojectzero.blogspot.com/2020/01/remote-iphone-exploitation-part-3.html))
 - Siguza - [cuck00](https://blog.siguza.net/cuck00/)
 - Justin Sherman - [used_sock](https://jsherman212.github.io/2020/02/06/used_sock.html)
@@ -160,6 +160,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Siguza - [Psychic Paper](https://blog.siguza.net/psychicpaper/)
 - Brandon Azad - [One Byte to rule them all](https://googleprojectzero.blogspot.com/2020/07/one-byte-to-rule-them-all.html)
 - Brandon Azad - [The core of Apple is PPL: Breaking the XNU kernel's kernel](https://googleprojectzero.blogspot.com/2020/07/the-core-of-apple-is-ppl-breaking-xnu.html)
+- windknown - [Attack Secure Boot of SEP](https://github.com/windknown/presentations/blob/master/Attack_Secure_Boot_of_SEP.pdf)
 - Ian Beer - [An iOS zero-click radio proximity exploit odyssey](https://googleprojectzero.blogspot.com/2020/12/an-ios-zero-click-radio-proximity.html)
 - Alex Plaskett - [Apple macOS 6LowPAN Vulnerability](https://alexplaskett.github.io/CVE-2020-9967/)
 - Luca Moro - [Analysis and exploitation of the iOS kernel vulnerability CVE-2021-1782](https://www.synacktiv.com/publications/analysis-and-exploitation-of-the-ios-kernel-vulnerability-cve-2021-1782)
@@ -181,6 +182,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Ian Beer - [CVE-2021-30737, @xerub's 2021 iOS ASN.1 Vulnerability](https://googleprojectzero.blogspot.com/2022/04/cve-2021-30737-xerubs-2021-ios-asn1.html)
 - Ian Beer - [CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers](https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html)
 - Ivan Fratric - [DER Entitlements: The (Brief) Return of the Psychic Paper](https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html)
+- Félix Poulin-Bélanger - [kfd](https://github.com/felix-pb/kfd#where-to-find-detailed-write-ups-for-the-exploits)
 
 ## Other Lists
 
