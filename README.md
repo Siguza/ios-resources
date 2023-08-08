@@ -183,6 +183,7 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Ian Beer - [CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers](https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html)
 - Ivan Fratric - [DER Entitlements: The (Brief) Return of the Psychic Paper](https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html)
 - Félix Poulin-Bélanger - [kfd](https://github.com/felix-pb/kfd#where-to-find-detailed-write-ups-for-the-exploits)
+- alfiecg24 - [A comprehensive write-up of the checkm8 BootROM exploit](https://alfiecg.uk/2023/07/21/A-comprehensive-write-up-of-the-checkm8-BootROM-exploit.html)
 
 ## Other Lists
 
