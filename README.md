@@ -24,9 +24,9 @@ Both infocenter.arm.com and developer.arm.com are outright nightmares to navigat
 
 ![Screenshot](https://user-images.githubusercontent.com/1659374/60986368-9cc60100-a33f-11e9-8ee6-b7dd89f0231e.png)
 
-That should have the form `ARM XXX ddddX.x`. Take the three letters and following four digits (in this case, `DDI0406`) and construct an URL like so:  
+That should have the form `ARM XXX ddddX.x`. Take the three letters and following four digits, convert them to lower case (in this case, `ddi0406`) and construct an URL like so:  
 `https://developer.arm.com/docs/XXXdddd/latest`  
-(In this case, `https://developer.arm.com/docs/DDI0406/latest`.)
+(In this case, `https://developer.arm.com/docs/ddi0406/latest`.)
 </td></tr></table>
 
 ## Internals
