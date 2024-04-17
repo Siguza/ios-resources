@@ -17,17 +17,13 @@ My own doing:
 <!-- TODO: something about C++ vtables -->
 <!-- TODO: something about symbol stubs -->
 
-<table><tr><td>
-Note on ARM documents:
-
-Both infocenter.arm.com and developer.arm.com are outright nightmares to navigate, and search engines don't help either. But if you have any ARM document as a PDF and want to check for a newer version, there is a neat trick. At the bottom of any page of the PDF, you should have a document identifier like so:
-
-![Screenshot](https://user-images.githubusercontent.com/1659374/60986368-9cc60100-a33f-11e9-8ee6-b7dd89f0231e.png)
-
-That should have the form `ARM XXX ddddX.x`. Take the three letters and following four digits, convert them to lower case (in this case, `ddi0406`) and construct an URL like so:  
-`https://developer.arm.com/docs/XXXdddd/latest`  
-(In this case, `https://developer.arm.com/docs/ddi0406/latest`.)
-</td></tr></table>
+> [!TIP]
+> Both `infocenter.arm.com` and `developer.arm.com` are outright nightmares to navigate, and search engines don't help either. But if you have any ARM document as a PDF and want to check for a newer version, there is a neat trick. At the bottom of any page of the PDF, you should have a document identifier like so:
+>
+> ![Screenshot](https://user-images.githubusercontent.com/1659374/60986368-9cc60100-a33f-11e9-8ee6-b7dd89f0231e.png)
+>
+> That should have the form `ARM XXX ddddX.x`. Take the three letters and following four digits, convert them to lower case (in this case, `ddi0406`) and construct an URL like so:  
+> `https://developer.arm.com/docs/XXXdddd/latest` (in this case `https://developer.arm.com/docs/ddi0406/latest`)
 
 ## Internals
 
@@ -85,10 +81,12 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Siguza - [APRR](https://blog.siguza.net/APRR/)
 - Siguza - [PAN](https://blog.siguza.net/PAN/)
 - Sven Peter - [SPRR & GXF](https://blog.svenpeter.dev/posts/m1_sprr_gxf/)
+- VoidiStaff - [JITCage](https://web.archive.org/web/20230210051217/https://voidistaff.github.io/safari/2023/01/01/about-jitcage-on-ios.html)
 
 **Software Mitigations**
 
 - blacktop - [Anatomy of Lockdown Mode](https://github.com/blacktop/presentations/blob/main/0x41con_2023/PDF/AnatomyOfLockdownMode.pdf)
+- Csaba Fitzl - [Launch and Environment Constraints Deep Dive](https://theevilbit.github.io/posts/launch_constraints_deep_dive/)
 
 **Web**
 
@@ -183,6 +181,11 @@ That should have the form `ARM XXX ddddX.x`. Take the three letters and followin
 - Ian Beer - [CVE-2021-1782, an iOS in-the-wild vulnerability in vouchers](https://googleprojectzero.blogspot.com/2022/04/cve-2021-1782-ios-in-wild-vulnerability.html)
 - Ivan Fratric - [DER Entitlements: The (Brief) Return of the Psychic Paper](https://googleprojectzero.blogspot.com/2023/01/der-entitlements-brief-return-of.html)
 - Félix Poulin-Bélanger - [kfd](https://github.com/felix-pb/kfd#where-to-find-detailed-write-ups-for-the-exploits)
+- Asahi Lina - [AGX Exploit](https://asahilina.net/agx-exploit/)
+- Gergely Kalman - [librarian - a macOS TCC bypass in Music and TV](https://gergelykalman.com/CVE-2023-38571-a-macOS-TCC-bypass-in-Music-and-TV.html)
+- Ian Beer - [An analysis of an in-the-wild iOS Safari WebContent to GPU Process exploit](https://googleprojectzero.blogspot.com/2023/10/an-analysis-of-an-in-the-wild-ios-safari-sandbox-escape.html)
+- DFSEC - [That's FAR-out, Man](https://blog.dfsec.com/ios/2023/11/19/thats-far-out-man/)
+- Mickey Jin - [xpcroleaccountd Root Privilege Escalation](https://jhftss.github.io/CVE-2023-42942-xpcroleaccountd-Root-Privilege-Escalation/)
 
 ## Other Lists
 
