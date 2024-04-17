@@ -55,10 +55,10 @@ My own doing:
 **Kernel**
 
 - Apple - [Kernel Programming Guide](https://developer.apple.com/library/content/documentation/Darwin/Conceptual/KernelProgramming)
-- Apple - IOKit Fundamentals (available as [Website](https://developer.apple.com/library/content/documentation/DeviceDrivers/Conceptual/IOKitFundamentals) or [PDF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.693.3915&rep=rep1&type=pdf))
+- Apple - [IOKit Fundamentals](https://developer.apple.com/library/content/documentation/DeviceDrivers/Conceptual/IOKitFundamentals)
 - Apple - [About the Virtual Memory System](https://developer.apple.com/library/content/documentation/Performance/Conceptual/ManagingMemory/Articles/AboutMemory.html)
 - qwertyoruiopz - Attacking XNU (Part [One](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=38) and [Two](https://web.archive.org/web/20160131061526/http://blog.qwertyoruiop.com/?p=48)) <!-- July 2015 -->
-- Stefan Esser - [Kernel Heap](http://gsec.hitb.org/materials/sg2016/D2%20-%20Stefan%20Esser%20-%20iOS%2010%20Kernel%20Heap%20Revisited.pdf) <!-- Aug 2016 -->
+- Stefan Esser - [Kernel Heap](https://web.archive.org/web/20220819043107/https://gsec.hitb.org/materials/sg2016/D2%20-%20Stefan%20Esser%20-%20iOS%2010%20Kernel%20Heap%20Revisited.pdf) <!-- Aug 2016 -->
 - stek29 - [NVRAM lock/unlock](https://stek29.rocks/2018/06/26/nvram.html) <!-- Jun 2018 -->
 
 **Kernel Integrity**
@@ -73,7 +73,7 @@ My own doing:
 - Brandon Azad - [Examining Pointer Authentication on the iPhone XS](https://googleprojectzero.blogspot.com/2019/02/examining-pointer-authentication-on.html)
 - Qualcomm Product Security - [Pointer Authentication on ARMv8.3](https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf)
 - Roberto Avanzi - The QARMA Block Cipher Family ([Paper](https://eprint.iacr.org/2016/444.pdf) and [Presentation](https://www.nuee.nagoya-u.ac.jp/labs/tiwata/fse2017/slides/05-02.pdf))
-- Roberto Avanzi - [Crypto that is Light to Accept](http://tce.webee.eedev.technion.ac.il/wp-content/uploads/sites/8/2016/05/light-crypto-public-2016.04.20.pdf)
+- Roberto Avanzi - [Crypto that is Light to Accept](https://web.archive.org/web/20201216030432/http://tce.webee.eedev.technion.ac.il/wp-content/uploads/sites/8/2016/05/light-crypto-public-2016.04.20.pdf)
 - Rui Zong and Xiaoyang Dong - [Meet-in-the-Middle Attack on QARMA Block Cipher](https://eprint.iacr.org/2016/1160.pdf)
 
 **Hardware Mitigations**
