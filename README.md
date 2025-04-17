@@ -128,18 +128,18 @@ My own doing:
 - Ian Beer - [task_t considered harmful](https://googleprojectzero.blogspot.ch/2016/10/taskt-considered-harmful.html)
 - jndok - [Exploiting Pegasus on OS X](https://jndok.github.io/2016/10/04/pegasus-writeup/)
 - Siguza - [Exploiting Pegasus on iOS](https://blog.siguza.net/cl0ver/)
-- Ian Beer - mach_portal ([write-up](https://bugs.chromium.org/p/project-zero/issues/detail?id=965#c2) and [presentation slides](https://bugs.chromium.org/p/project-zero/issues/attachment?aid=280146&signed_aid=lcE7kSko3drFdbx2ApJb7A==))
+- Ian Beer - mach_portal ([write-up](https://project-zero.issues.chromium.org/issues/42452496#comment3) and [presentation slides](https://project-zero.issues.chromium.org/action/issues/42452496/attachments/59037116?download=false))
 - Ian Beer - [Exception-oriented exploitation on iOS](https://googleprojectzero.blogspot.ch/2017/04/exception-oriented-exploitation-on-ios.html)
 - Jonathan Levin - [Phœnix](http://newosxbook.com/files/PhJB.pdf)
 - Gal Beniamini - Over The Air (Parts [One](https://googleprojectzero.blogspot.ch/2017/09/over-air-vol-2-pt-1-exploiting-wi-fi.html), [Two](https://googleprojectzero.blogspot.ch/2017/10/over-air-vol-2-pt-2-exploiting-wi-fi.html) and [Three](https://googleprojectzero.blogspot.ch/2017/10/over-air-vol-2-pt-3-exploiting-wi-fi.html))
 - Siguza - [v0rtex](https://blog.siguza.net/v0rtex/)
-- Ian Beer - [async_wake_ios](https://bugs.chromium.org/p/project-zero/issues/detail?id=1417#c3)
+- Ian Beer - [async_wake_ios](https://project-zero.issues.chromium.org/issues/42450458#comment4)
 - Siguza - [IOHIDeous](https://blog.siguza.net/IOHIDeous/)
 - Jonathan Levin - QiLin ([PDF](http://newosxbook.com/QiLin/qilin.pdf) and [API](http://newosxbook.com/QiLin/))
 - Brandon Azad - [A fun XNU infoleak](https://bazad.github.io/2018/03/a-fun-xnu-infoleak/)
-- jeffball - [Heap overflow in necp_client_action](https://github.com/grimm-co/NotQuite0DayFriday/blob/master/2018.04.06-macos/notes.txt)
+- jeffball - [Heap overflow in necp_client_action](https://github.com/grimm-co/NotQuite0DayFriday/blob/bcd6a4f21fb12ac058e67a0b93e5f2a3640fc253/2018.04.06-macos/notes.txt)
 - xerub - [De Rebus Antiquis](https://xerub.github.io/ios/iboot/2018/05/10/de-rebus-antiquis.html)
-- Ian Beer - [multi_path](https://bugs.chromium.org/p/project-zero/issues/detail?id=1558#c3)
+- Ian Beer - [multi_path](https://project-zero.issues.chromium.org/issues/42450613#comment4)
 - Brandon Azad - [blanket](https://github.com/bazad/blanket)
 - Brandon Azad - [voucher_swap](https://googleprojectzero.blogspot.com/2019/01/voucherswap-exploiting-mig-reference.html)
 - iBSparkes - [MachSwap](https://sparkes.zone/blog/ios/2019/04/30/machswap-ios-12-kernel-exploit.html)
@@ -191,8 +191,8 @@ My own doing:
 ## Other Lists
 
 - qwertyoruiopz - iOS Reverse Engineering ([Wiki](https://github.com/kpwn/iOSRE/tree/master/wiki) and [Papers](https://github.com/kpwn/iOSRE/tree/master/resources/papers))
-- Google Project Zero - [All the bugs Ian Beer has killed](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=reporter:ianbeer@google.com&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
-- Google Project Zero - [All Apple bugs](https://bugs.chromium.org/p/project-zero/issues/list?can=1&q=label:Vendor-Apple&sort=-closed&num=99999&colspec=ID%20Status%20Closed%20Reporter%20Methodology%20Summary)
+- Google Project Zero - [All the bugs Ian Beer has killed](https://project-zero.issues.chromium.org/issues?q=reporter:(ianbeer@google.com)&s=created_time:desc)
+- Google Project Zero - [All Apple bugs](https://project-zero.issues.chromium.org/issues?q=customfield1352808:Apple&s=created_time:desc)
 - Google Project Zero - [A survey of recent iOS kernel exploits](https://googleprojectzero.blogspot.com/2020/06/a-survey-of-recent-ios-kernel-exploits.html)
 
 ## Community
