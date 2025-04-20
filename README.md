@@ -67,6 +67,7 @@ My own doing:
 - Siguza - [KTRR](https://blog.siguza.net/KTRR/)
 - Jonathan Levin - [Casa de PPL](http://newosxbook.com/articles/CasaDePPL.html)
 - Brandon Azad - KTRW: The journey to build a debuggable iPhone ([Blog Post](https://googleprojectzero.blogspot.com/2019/10/ktrw-journey-to-build-debuggable-iphone.html) and [Video](https://media.ccc.de/v/36c3-10806-ktrw_the_journey_to_build_a_debuggable_iphone))
+- Dataflow Forensics - iOS 17: New Version, New Acronyms ([Blog Post](https://www.df-f.com/blog/ios17))
 
 **Control Flow Integrity**
 
